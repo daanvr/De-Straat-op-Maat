@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<!-- Required meta tags foor bootstrap -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- load css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- load css for bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+
+	 
+</head>
+
+<body onresize="RefreshViewportSizes()">
+	<div class="container-fluid">
+		<div class="row">
+
+			<!-- Welcom header with logo and colors -->
+			<a class="col-12 logo-lightgreen" href="Straat.html">
+				<div class="col-12 logo-lightgreen"></div>
+			</a>
+			<div class="col-12 logo-white">
+				<div class="LogoContainerCompliment1"></div>
+				<div class="LogoContainerCompliment2"></div>
+				<div class="LogoContainer">
+					<img class="LogoImg" src="img/Logo.png">
+					<img class="LogoImgSuplementStreet" src="img/LogoStreet.png">
+				</div>
+			</div>
+			<div class="col-12 logo-darkgreen">
+				<div class="GoDown"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Body of the page -->
+	<div class="container-fluid">
+		<div class="row justify-content-md-center">
+
+			<!-- Intro -->
+			<div class="col-12 row justify-content-md-center">
+				<div class="col-6 m-5" style="text-align:center; margin-bottom: 0px !important">
+					<!-- <button onclick="TestButton()">TEST</button> -->
+					<h1>Deze atlas onderzoekt straten zowel kwantitatief als kwalitatief</h1>
+					<p>
+						We hebben 35 straten en
+						wegen onderzocht en deze op beeldende wijze beschreven. Deze
+						straten en wegen worden verkeerskundige en ruimtelijk, zowel kwantitatief
+						als kwalitatief in beeld gebracht en beoordeeld. Dit doen we
+						aan de hand van drie pijlers:
+					</p>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-3 m-3">
+					<div class="centerd-img-container">
+						<img alt="" src="img/intensiteit.png" width="100%" class="centerd-img">
+					</div>
+					<h3 style="text-align: center; color: #00A79C;">Verkeersintensiteit</h3>
+					<p>
+						Wat is de verkeersintensiteit op deze straat of weg, hoeveel motorvoertuigen
+						moeten er per etmaal afgewikkeld worden?
+					</p>
+				</div>
+				<div class="col-3 m-3">
+					<div class="centerd-img-container">
+						<img alt="" src="img/ruimte.png" width="100%" class="centerd-img">
+					</div>
+				
+					<h3 style="text-align: center; color: #97AF3B;">Ruimte</h3>
+					<p>
+						Wat is de beschikbare ruimte van gevel tot gevel of van voortuin tot
+						voortuin? Welke speelruimte hebben we voor het gehele profiel?
+					</p>
+				</div>
+				<div class="col-3 m-3">
+					<div class="centerd-img-container">
+						<img alt="" src="img/identiteit.png" height="100%" class="centerd-img">
+					</div>
+					<h3 style="text-align: center; color: #43642F;">Identiteit</h3>
+					<p>
+						Wat is de identiteit van de straat of van de weg? Is het een stedelijke
+						weg met allerlei voorzieningen of bijvoorbeeld een dorpse weg met
+						enkel een woonfunctie?
+						<!-- Een identiteit van een weg heeft met een
+						aantal factoren te maken en laat zich niet in 1 woord uitdrukken.
+						Daarom maken we hierbij gebruik van negen verschillende kenmerken. -->
+					</p>
+				</div>
+			</div>
+
+			<!-- Container of the Matrix -->
+			<div class="MatrixContainer col-8" id="MatrixContainer">
+			</div>
+
+			<!-- Container of Index -->
+			<div class="col-md-10 px-5 BarsContainer" id="IndexContainer">
+				<h1 class=" display-4">Index van alle Straten</h1>
+				<button class="btn-int" onclick="BuildLibrary('Intensiteit')"> Sorteer op intensiteit </button>
+				<button class="btn-rui" onclick="BuildLibrary('Ruimte')"> Sorteer op ruimte </button>
+				<br>
+			</div>
+
+			<!-- line breake -->
+			<div class="w-100"></div>
+
+
+
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="py-5 px-5 footer">
+		<div class="row justify-content-md-center">
+
+			<!-- Footer Collum 1 -->
+			<div class="col-2 m-2">
+				<b>Bezoekadres</b><br>
+				<a class="FooterLink" href="https://goo.gl/maps/cNQf6ZP9US52">
+					Snipperlingsdijk 4 <br>
+					7417 BJ Deventer <br><br>
+				</a>
+
+				<b>Contact</b><br>
+				<a class="FooterLink" href="tel:(0)570 666 222">
+					(0)570 666 222
+				</a><br>
+				<a href="mailto:info@goudappel.nl">
+					info@goudappel.nl
+				</a> <br>
+			</div>
+
+
+			<!-- Footer Collum 2 -->
+			<div class="col-3 m-2">
+				Dit "boek" is een creatie van Goudappel Groep.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida, tortor vel vehicula malesuada, massa nibh
+				facilisis risus, non pharetra erat enim a mauris. Etiam orci urna, hendrerit nec bibendum id, placerat ut nibh.
+				Donec non interdum lacus. Vestibulum in magna felis. Morbi et nulla mattis, blandit eros a, egestas leo. Etiam
+				efficitur odio vel lectus venenatis convallis. Cras blandit lacus quis porttitor eleifend. Nunc pellentesque porta
+				malesuada.
+			</div>
+
+			<!-- Footer Collum 3 -->
+			<div class="col-2 m-2" style="text-align: center;">
+				<a href="https://www.goudappel.nl/">
+					<img class="FooterLogo" src="img/GCLogo.png">
+				</a>
+				<a href="https://www.goudappel.nl/">www.goudappel.nl</a>
+			</div>
+
+		</div>
+	</footer>
+
+
+
+
+
+	<!-- required for Bootsrap -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
+
+	<!-- run java script -->
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="StrDB.js"></script>
+
+
+</body>
+
+</html>

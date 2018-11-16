@@ -1,0 +1,271 @@
+/*CSS voor De Grote Straatatlas*/
+
+
+
+/* Intensiteit Kleur: dark turkwase: #00A79C */
+/* RuimteeKleur: Light green: #97AF3B */
+/* IdentiteitKleur: dark greem: #43642F */
+
+* {
+	
+	font-family: century-gothic, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	/* font: 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif; */
+}
+
+body {
+	margin: 0;
+}
+
+.logo-lightgreen {
+	background-color: #97AF3B;
+	height: calc(50vh - 25px);
+}
+
+.logo-white {
+	background-color: white;
+	height: 50px;
+	overflow: visible;
+}
+
+.LogoContainer {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	background-color: white;
+	transform: translate(calc(50vw - 250px), calc(-50% + 25px));
+	margin: auto;
+	/* border: solid 2px red; */
+}
+
+.LogoContainerCompliment1{
+	position: absolute;
+	width: 650px;
+	height: 0;
+	/* border: solid 2px red; */
+	transform: translate(calc(50vw - 325px), -100%);
+	border-bottom: 75px solid white;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+}
+
+
+.LogoContainerCompliment2{
+	position: absolute;
+	width: 650px;
+	height: 0;
+	/* border: solid 2px red; */
+	transform: translate(calc(50vw - 325px),66%);
+	border-top: 75px solid white;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+}
+
+.LogoImg {
+	position: absolute;
+	width: 450px;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.LogoImgSuplementStreet {
+	position: absolute;
+	width: 450px;
+	bottom: -4px;
+	margin-left: 25px;
+}
+
+.logo-darkgreen{
+	background-color: #43642F;
+	height: calc(50vh - 25px);
+	z-index: -1;
+}
+
+.GoDown {
+	position: absolute;
+	border: solid 50px transparent;
+	border-bottom: solid 50px white;
+	width: 10px;
+	height: 10px;
+	bottom: 0px;
+	transform: translate(calc(50vw - 50px),0);
+	/* border-radius: 100px; */
+	opacity: 1;
+	display: none; 
+
+}
+
+.SectionTitle {
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 30px;
+	margin: 0;
+	padding-top: 75px;
+	/* color: darkgray; */
+}
+
+.MatrixContainer {
+	/* border: solid 1px black; */
+	padding: 10px;
+	padding-bottom: 65px;
+	/* overflow: hidden; */
+}
+
+.Matrix {
+	padding: 10px;
+	border-left: solid 5px #00A79C;
+	border-bottom: solid 5px #97AF3B;
+	margin: auto;
+}
+
+.MatrixTextLeft {
+	position: absolute;
+	/* transform: rotate(-90deg) translate(0, 0); */
+	font-size: 35px;
+	font-weight: bold;
+	color: #00A79C;
+	display: none;
+	/* background-color: aqua;
+	width: 100%; */
+}
+
+.MatrixTextBottom {
+	position: absolute;
+	/* transform: translate(calc(50vw - 50%), 74vh); */
+	font-size: 35px;
+	font-weight: bold;
+	color: #97AF3B;
+	display: none;
+	/* background-color: green;
+	width: 100%; */
+
+}
+
+.StrInMatrix {
+	/* padding-left: 10px; */
+	/* border-left: solid 1px gray; */
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background-color: white;
+	border: solid #43642F 2px;
+}
+
+.test {
+	width: 0px;
+	height: 0px;
+}
+
+.BarsContainer {
+	padding: 10px;
+	margin: auto;
+	width: 80vw;
+	max-width: 691px;
+	text-align: center;
+}
+
+.StrBox {
+	display: inline-block;
+	text-align: left;
+	padding: 5px;
+	margin: auto;
+	width: 300px;
+	background-color: white;
+}
+
+#MatrixItemHovering {
+	text-align: left;
+	width: 310px;
+	position: absolute;
+	border: solid black 1px; 
+	border-radius: 8px; 
+	background-color: white;
+}
+
+
+.MaxBar {
+	width: 255px;
+	height: 8px;
+	border-radius: 4px;
+	/* border: solid 1px black; */
+	background-color: lightgrey;
+	z-index: -1;
+	margin-bottom: 4px;
+	display: inline-block;
+}
+
+.Progress {
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+	z-index: 10000;
+}
+
+.Ruimte {
+	background-color: #97AF3B;
+
+}
+
+.Intensiteit {
+	background-color: #00A79C;
+}
+
+.DetailText {
+	font-size: 11px;
+	/* margin-top: -16px; */
+	margin-bottom: 3px;
+}
+
+.StrNameText {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+
+.footer {
+	background-color:#00A79C;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.FooterLogo {
+	width: 100%;
+}
+
+.btn-int {
+    background-color: transparent;
+    color: #00A79C;
+	border: 1px solid #00A79C; /* Green */
+	border-radius: 10px;
+	height: 2em;
+	margin: 10px;
+}
+
+.btn-rui {
+    background-color: transparent;
+    color: #97AF3B;
+	border: 1px solid #97AF3B; /* Green */
+	border-radius: 10px;
+	height: 2em;
+	margin: 10px;
+}
+
+.centerd-img-container {
+    display: flex;
+    justify-content: center;
+	align-items: flex-end;
+	margin: 0 auto;
+	width: 12vw;
+	height: 8vw;
+	margin-bottom: 15px;	
+}
+
+.centerd-img {
+	/* max-height: 6vw;
+	max-width: 6vw; */
+}
