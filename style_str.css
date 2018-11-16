@@ -89,3 +89,16 @@ body {
 	padding: 15px;
 	margin: 15px;
 }
+
+.carousel {
+	margin: 15px;
+}
+
+.Carouimgdiv {
+
+}
+
+.Carouimg {
+	max-height: 20vw;
+	margin: 15px;
+}
