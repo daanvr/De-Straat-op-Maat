@@ -42,7 +42,7 @@ body {
 	position: absolute;
 	bottom: 0px;
 	text-align: center;
-	width: 100vw;
+	width: 100%;
 }
 
 .footer {
@@ -91,14 +91,37 @@ body {
 }
 
 .carousel {
-	margin: 15px;
+	/* margin: 15px; */
+	/* background-color: #97AF3B; */
+	/* padding: 10px; */
 }
 
 .Carouimgdiv {
-
+	height: 400px;
+	/* width: 400px; */
+	/* padding-left: 10px; */
+	/* padding: 15px; */
+	padding: 0 5px;
+	text-align: center;
 }
 
 .Carouimg {
-	max-height: 20vw;
-	margin: 15px;
+	/* margin: 15px; */
+	/* padding: 15px; */
+	height: 400px;
+	display: inline-block;
+
+}
+
+.slick-prev {
+    left: 100px;
+    background: red; /*to notice it, is white*/
+}
+.slick-next {
+    right: 100px;
+    background: red; /*to notice it, is white*/
+}
+
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
 }
