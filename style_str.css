@@ -57,3 +57,25 @@ body {
 .FooterLogo {
 	width: 100%;
 }
+
+
+.NavBtnHome {
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+	background-color: white;
+    color: #00A79C;
+    font-size: 26px;
+    padding: 6px 24px;
+    border: solid 2px #00A79C;
+    cursor: pointer;
+    border-radius: 10px;
+	text-align: center;
+	margin: 15px;
+}
+
+.NavBtnHome:hover {
+    background-color: whitesmoke;
+}

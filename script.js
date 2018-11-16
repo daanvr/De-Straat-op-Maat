@@ -229,6 +229,7 @@ function BuildLibrary(IndexSortVar, IndexSortDir) {
 		document.getElementById("IndexContainer").appendChild(IndexItem);
 	}
 	console.log("Index Built");
+	//ClickableStrBoxs()
 };
 
 function onresize() {
@@ -278,8 +279,10 @@ function BuildStrBox(i) {
 	StrBox.className = "StrBox";
 	StrBox.id = "StrBox-";
 	StrBox.id += i;
-
-	//console.log(StrDB);
+	StrBox.onclick = function(){
+		window.location = "https://daanvr.github.io/de_straat_op_maat/Straat.html";
+		return false;
+	};
 
 	//div inner HTML
 	var GeneratingStrBoxHTML = "<p class='StrNameText'>";
@@ -325,7 +328,6 @@ function BuildPreBarLogo(type) {
 
 	return PreLogoBox;
 }
-
 
 function MatrixHoverBox(i) {
 	var Box = BuildStrBox(i)
@@ -375,19 +377,39 @@ function GenerateMatrixItemPosDB() {
 $(document).ready(function () {
 	var GoDownTriangle = $(".GoDown");
 	GoDownTriangle.fadeIn(250);
-	GoDownTriangle.animate({opacity: '0.4'}, 500);
+	GoDownTriangle.animate({ opacity: '0.4' }, 500);
 	// GoDownTriangle.fadeOut(1000);
-	GoDownTriangle.animate({opacity: '1'}, 500);
+	GoDownTriangle.animate({ opacity: '1' }, 500);
 
 	//$(".GoDown").animate({display: 'block', opacity: '0.4'}, "slow");
 	// div.animate({ opacity: '0.4' }, "slow");
 	// div.animate({ width: '300px', opacity: '0.8' }, "slow");
 	// div.animate({ height: '100px', opacity: '0.4' }, "slow");
 	// div.animate({ width: '100px', opacity: '0.8' }, "slow");
+
+
+
+
+
 });
 
 
+// jQuery click events
+// $('.StrBox').click(function () {
+// 	var str = "Free Web Building Tutorials!";
+// 	var result = str.link("https://www.w3schools.com");
+// 	$('.StrBox').innerHTML = result;
+// 	return false;
+// });
 
+
+function ClickableStrBoxs() {
+	$(".StrBox").click(function() {
+		console.log("clicked to Straat");
+		window.location = "http://google.com";
+		return false;
+	});
+}
 
 
 
