@@ -1,6 +1,7 @@
 var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-var MatrixHightCalced = 0.7 * vh;
+var MatrixHightCalced = Math.min(0.6 * vw, 0.7 * vh);
+0.5 * vw;
 var MatrixWidthCalced = 0.6 * vw;
 var Biggest = new Array();
 var MatrixItemPos = new Array();
@@ -77,11 +78,11 @@ function BuildMatrix() {
 	var MatrixIntroTitle = document.createElement("H1");
 	// var TitleText = "Matrix van alle Straten"
 	// MatrixIntroTitle.appendChild(TitleText);
-	MatrixIntroTitle.textContent = "Matrix van alle Straten";
+	MatrixIntroTitle.textContent = "Index van de straat op maat";
 
 	//Matrix Intro Text Building
 	var MatrixIntroText = document.createElement("P");
-	MatrixIntroText.textContent = "Dit is de inroductie tekst over deze matrix.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida, tortor vel vehicula malesuada, massa nibh facilisis risus, non pharetra erat enim a mauris. Etiam orci urna, hendrerit nec bibendum id, placerat ut nibh. Donec non interdum lacus. Vestibulum in magna felis. Morbi et nulla mattis, blandit eros a, egestas leo. Etiam efficitur odio vel lectus venenatis convallis. Cras blandit lacus quis porttitor eleifend. Nunc pellentesque porta malesuada.";
+	MatrixIntroText.textContent = "Doel: Het geven van inspiratie om goede wegen en straten te maken, zowel ruimtelijk als verkeerskundig, en zo te komen tot leefbare, aantrekkelijke en bereikbare steden en dorpen. Dit op het hele scala van verkeersintensiteiten, van rustig tot druk, van shared space tot stadsstraat. Dit doen we graag met u samen!";
 
 	//Matrix Legenda Building
 	var LegendaLeft = document.createElement("div");
