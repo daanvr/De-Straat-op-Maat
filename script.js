@@ -1,7 +1,6 @@
 var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 var vh = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 var MatrixHightCalced = Math.min(0.6 * vw, 0.7 * vh);
-0.5 * vw;
 var MatrixWidthCalced = 0.6 * vw;
 var Biggest = new Array();
 var MatrixItemPos = new Array();

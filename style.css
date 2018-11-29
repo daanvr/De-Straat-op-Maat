@@ -32,7 +32,9 @@ body {
 .LogoContainer {
 	position: absolute;
 	width: 500px;
+	max-width: calc(90vw - 150px);
 	height: 500px;
+	max-height: calc(90vw - 150px);
 	background-color: white;
 	transform: translate(calc(50vw - 250px), calc(-50% + 25px));
 	margin: auto;
@@ -42,6 +44,7 @@ body {
 .LogoContainerCompliment1{
 	position: absolute;
 	width: 650px;
+	max-width: 90vw;
 	height: 0;
 	/* border: solid 2px red; */
 	transform: translate(calc(50vw - 325px), -100%);
@@ -54,6 +57,8 @@ body {
 .LogoContainerCompliment2{
 	position: absolute;
 	width: 650px;
+	max-width: 90vw;
+
 	height: 0;
 	/* border: solid 2px red; */
 	transform: translate(calc(50vw - 325px),66%);
@@ -65,6 +70,7 @@ body {
 .LogoImg {
 	position: absolute;
 	width: 400px;
+	max-width: calc(90vw - 150px - 80px);
 	margin-left: 10%;
 	margin-top: 5%;
 }
