@@ -26,8 +26,8 @@ $('.carousel').append('<div class="Carouimgdiv" id="img_div_2"><img class="Carou
 $('.carousel').append('<div class="Carouimgdiv" id="img_div_4"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/4.JPG">Fietsen staan op veel plekken geplaatst waar het niet hoort<div>');
 $('.carousel').append('<div class="Carouimgdiv" id="img_div_5"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/5.JPG">Hangende verlichting<div>');
 
-$('.VoorenNa').append('<div class="Carouimgdiv" id="img_div_6"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/OUD.JPG">Fietsen staan op veel plekken geplaatst waar het niet hoort<div>');
-$('.VoorenNa').append('<div class="Carouimgdiv" id="img_div_7"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/2.JPG">Hangende verlichting<div>');
+// $('.VoorenNa').append('<div class="Carouimgdiv" id="img_div_6"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/OUD.JPG">Fietsen staan op veel plekken geplaatst waar het niet hoort<div>');
+// $('.VoorenNa').append('<div class="Carouimgdiv" id="img_div_7"><img class="Carouimg" src="https://daanvr.github.io/de_straat_op_maat/img/Str1/imgs/2.JPG">Hangende verlichting<div>');
 
 
 
