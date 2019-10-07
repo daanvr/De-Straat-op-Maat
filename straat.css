@@ -1,0 +1,348 @@
+/*CSS voor De Grote Straatatlas*/
+
+/* Intensiteit Kleur: dark turkwase: #00A79C */
+
+/* RuimteeKleur: Light green: #97AF3B */
+
+/* IdentiteitKleur: dark greem: #43642F */
+
+* {
+	font-family: century-gothic, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	/* font: 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif; */
+}
+
+body {
+	margin: 0;
+}
+
+.header-img-container {
+	padding: 0 !important;
+	height: 53vh;
+	width: 100%;
+	background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	color: white;
+	background-position-y: 50px;
+}
+
+/* .header-img {
+	width: 100%;
+	clip-path: inset(15vh 0 35vh 0);
+	transform: translate(0 , -15vh);
+} */
+
+.StrTitle {
+	color: whitesmoke !important;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.footer {
+	background-color: #00A79C;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.FooterLogo {
+	width: 100%;
+}
+
+.NavBtnHome {
+	position: relative;
+	/* top: 50%; */
+	left: 50%;
+	transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	background-color: white;
+	color: #00A79C;
+	font-size: 26px;
+	padding: 6px 24px;
+	border: solid 2px #00A79C;
+	cursor: pointer;
+	border-radius: 10px;
+	text-align: center;
+	margin: 15px;
+}
+
+.NavBtnHome:hover {
+	background-color: whitesmoke;
+}
+
+.dumy {
+	background-color: green;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 15px;
+}
+
+.carousel {
+	/* margin: 15px; */
+	/* background-color: #97AF3B; */
+	/* padding: 10px; */
+}
+
+.Carouimgdiv {
+	height: 40vw;
+	/* width: 400px; */
+	/* padding-left: 10px; */
+	/* padding: 15px; */
+	padding: 0 5px;
+	text-align: center;
+}
+
+.Carouimg {
+	/* margin: 15px; */
+	/* padding: 15px; */
+	height: 40vw;
+	display: inline-block;
+}
+
+.slick-prev {
+	left: 100px;
+	background: red;
+	/*to notice it, is white*/
+}
+
+.slick-next {
+	right: 100px;
+	background: red;
+	/*to notice it, is white*/
+}
+
+.slick-prev:before, .slick-next:before {
+	color: black !important;
+}
+
+.e-mail-Link-Footer {
+	color: blue;
+	text-decoration: underline;
+}
+
+.test {
+	border: solid red 1px;
+	min-width: 10px !important;
+	min-height: 10px !important;
+}
+
+.int-container {
+	height: 122px;
+}
+
+.back-btn {
+	width: 25px;
+	height: 44px;
+	float: left;
+	margin: 47px 0 0 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.749' height='42.749' viewBox='0 0 24.749 42.749'%3E%3Cg id='back-btn' transform='translate(-31.126 -973.626)'%3E%3Cline id='Line_1' data-name='Line 1' x1='25' transform='translate(34.661 994.839) rotate(-45)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3Cline id='Line_2' data-name='Line 2' x1='25' transform='translate(52.339 1012.839) rotate(-135)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A");
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+
+}
+
+.data-container {
+	float: left;
+	width: calc(100% - 50px);
+	margin: 20px 0 0 0;
+}
+
+.data-title {
+	font-size: 30px;
+	text-align: center;
+	width: 100%
+}
+
+.data-bar {
+	width: 100%;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.data-nbr {
+	font-size: 15px;
+	text-align: center;
+}
+
+.next-btn {
+	height: 44px;
+	float: left;
+	width: 25px;
+	margin: 47px 0 0 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.749' height='42.749' viewBox='0 0 24.749 42.749'%3E%3Cg id='next-btn' transform='translate(55.874 1016.374) rotate(-180)'%3E%3Cline id='Line_1' data-name='Line 1' x1='25' transform='translate(34.661 994.839) rotate(-45)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3Cline id='Line_2' data-name='Line 2' x1='25' transform='translate(52.339 1012.839) rotate(-135)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A");
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+}
+
+#int-progress {
+	background-color: #1AA79C;
+}
+
+#ruim-progress {
+	background-color: #97B03B;
+}
+
+#ident-progress {
+	background-color: #43632E;
+}
+
+.int {
+	color: #1AA79C;
+}
+
+.ruim {
+	color: #97B03B;
+}
+
+.ident {
+	color: #43632E;
+}
+
+.ident-container {
+	width: 100%
+}
+
+.ident-svg {
+	width: 100%;
+	height: 200px;
+	background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* background-image: url(https://design.dat.nl/tests/ident-icons.svg); */
+	/* background-image: url(img/str2/Doorsnedes.png); */
+}
+
+.map {
+	/* width: 100%; */
+	height: 450px;
+	padding: 0 !important;
+	/* border-radius: 10px; */
+}
+
+.ident-container {}
+
+.largeImage {
+	width: 100%;
+}
+
+h1 {
+	color: #43632E !important;
+	text-align: center !important;
+}
+
+.expertImg {
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+
+.textBuble {
+	background-color: #1AA79C;
+	border-radius: 20px;
+	padding: 20px;
+	width: 90%;
+	float: right;
+	color: white;
+}
+
+.textBublePointer {
+	position: absolute;
+	width: 83px;
+	/* transform: translate(-27px, 0); */
+	z-index: -10;
+}
+
+.photosContainer {
+	width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photoContainer {
+	display: inline-block;
+	position: relative;
+	color: white;
+	width: fit-content;
+	margin: 10px 0 0 10px;
+}
+
+.photo {
+	height: 300px;
+	border-radius: 5px;
+}
+
+.photoTextContainer {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	border-radius: 0 0 5px 5px;
+	/* transform: translate(-50%, -50%); */
+}
+
+.photoText {
+	color: white;
+	margin: 0;
+}
+
+.deviderLine {
+	border-top: solid 1px #96AF3B;
+	width: 50vw;
+	height: 50px;
+	margin: 50px auto 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.sectionTitle {
+	margin:  100px 0 50px 0;
+}
+
+.header-under-menu {
+	height: 50px;
+}
+
+.menu-btn {
+	float: right;
+    margin: 10px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+	padding: 4px 10px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #43632E;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+}
+.logo-small { 
+	height: 50px;
+	padding: 5px 15px;
+}
