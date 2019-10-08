@@ -24,18 +24,21 @@ console.log("selected street: "+urlStreetId);
 $(document).ready(function () {
     $.getJSON("street-data.json", function () { }).done(function (loadedData) {
         allStreetData = loadedData; // save all streets for search and comaprison.
-        streetData = loadedData[0]; //default street when no street was found in url
+        // streetData = loadedData[0]; //default street when no street was found in url
         for (s in allStreetData) {
             if (allStreetData[s].streetId == urlStreetId) {
                 streetData = loadedData[s]; //select street based on url
             }
+        }
+        if (streetData === undefined) {
+            console.log("No street was selected fomr url. Bij default the first street was shown")
+            streetData = loadedData[0];
         }
         initiateStreetContent();
         initiatingMaps();
     });
     initiatingEvents();
 });
-
 
 function initiatingEvents() {
     $(".NavBtnHome").click(function () {
@@ -236,4 +239,8 @@ function unusedCodeForNow() {
     //         }
     //     });
     // }
+}
+
+function goToHomePage() {
+    window.location.href = "index.html";
 }

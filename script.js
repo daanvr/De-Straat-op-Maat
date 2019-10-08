@@ -282,7 +282,7 @@ function BuildStrBox(i) {
 	StrBox.id = "StrBox-";
 	StrBox.id += i;
 	StrBox.onclick = function () {
-		window.location = "https://daanvr.github.io/de_straat_op_maat/Straat.html";
+		window.location = "straat.html?straat=" + i;
 		return false;
 	};
 

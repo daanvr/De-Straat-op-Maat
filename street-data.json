@@ -1,6 +1,6 @@
 [
     {
-        "streetId": 2,
+        "streetId": 34,
         "headerPhoto": {
             "photoLocation": "img/str2/header-img.jpg",
             "ratio": 3.072
@@ -460,7 +460,7 @@
         ]
     },
     {
-        "streetId": 3,
+        "streetId": 0,
         "headerPhoto": {
             "photoLocation": "img/str3/header-img.jpg",
             "ratio": 3.072

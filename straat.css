@@ -333,6 +333,12 @@ h1 {
     border-radius: 5px;
     color: white;
 	padding: 4px 10px;
+	
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 .menu {
