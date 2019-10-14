@@ -1,7 +1,15 @@
-var allStreetData;
+// var allStreetData;
 var streetData;
 const verkeersintensiteitMax = 32000;
 const ruimteMax = 75;
+
+// var s = document.createElement("script");
+// s.type = "text/javascript";
+// s.src = "street-data.js";
+// $("body").append(s);
+
+$.getScript("street-data.js");
+
 
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
@@ -19,23 +27,34 @@ var getUrlParameter = function getUrlParameter(sParam) {
 };
 
 var urlStreetId = getUrlParameter('straat');
-console.log("selected street: "+urlStreetId);
+console.log("selected street: " + urlStreetId);
+
+function ready(fileName) {
+    switch (fileName) {
+        case "street-data.js":
+            // var allStreetData is now ready
+            // allStreetData = loadedData; // save all streets for search and comaprison.
+            // streetData = loadedData[0]; //default street when no street was found in url
+            for (s in allStreetData) {
+                if (allStreetData[s].streetId == urlStreetId) {
+                    streetData = allStreetData[s]; //select street based on url
+                }
+            }
+            if (streetData === undefined) {
+                console.log("No street was selected fomr url. Bij default the first street was shown")
+                streetData = allStreetData[0];
+            }
+            initiateStreetContent();
+            initiatingMaps();
+            break;
+        default:
+            break;
+    }
+}
 
 $(document).ready(function () {
     $.getJSON("street-data.json", function () { }).done(function (loadedData) {
-        allStreetData = loadedData; // save all streets for search and comaprison.
-        // streetData = loadedData[0]; //default street when no street was found in url
-        for (s in allStreetData) {
-            if (allStreetData[s].streetId == urlStreetId) {
-                streetData = loadedData[s]; //select street based on url
-            }
-        }
-        if (streetData === undefined) {
-            console.log("No street was selected fomr url. Bij default the first street was shown")
-            streetData = loadedData[0];
-        }
-        initiateStreetContent();
-        initiatingMaps();
+
     });
     initiatingEvents();
 });
@@ -147,6 +166,20 @@ function initiateStreetContent() {
     var FAImg = '<img class="largeImage" src="' + streetData.functionalAmbiance + '" alt="Functional Ambiance">';
     $(".functionalAmbianceContainer").append(FAImg);
 
+    if (streetData.beforAndAfter != undefined) {
+        for (i in streetData.beforAndAfter) {
+            var html = '<div class="photoContainer "><img class="photo" src="';
+            html += streetData.beforAndAfter[i].fileLocation;
+            html += '" alt="Foto ';
+            html += i;
+            html += '"><div class="photoTextContainer "><p class="photoText">';
+            html += streetData.beforAndAfter[i].textDescription;
+            html += '</p></div></div>';
+            $(".beforAndAfterPhotos").append(html);
+        }
+        $("#BnA").show();
+    }
+
     for (i in streetData.photos) {
         var html = '<div class="photoContainer"><img class="photo" src="';
         html += streetData.photos[i].fileLocation;
@@ -239,8 +272,4 @@ function unusedCodeForNow() {
     //         }
     //     });
     // }
-}
-
-function goToHomePage() {
-    window.location.href = "index.html";
 }

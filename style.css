@@ -160,8 +160,8 @@ body {
 }
 
 .test {
-	width: 0px;
-	height: 0px;
+	border: solid red 1px;
+	padding: 5px;
 }
 
 .BarsContainer {
@@ -274,4 +274,71 @@ body {
 .centerd-img {
 	/* max-height: 6vw;
 	max-width: 6vw; */
+}
+
+.menu-btn {
+	float: right;
+    margin: 10px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+	padding: 4px 10px;
+	
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #43632E;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.logo-small { 
+	height: 50px;
+	padding: 5px 15px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.quote {
+	font-style: oblique;
+	font-size: 25px;
+	color: #43632E;
+}
+
+.hiddenByMenuSpace{
+	width: 100vw;
+	height: 50px;
+}
+
+.profileImg {
+	width: 100%;
+	border-radius: 50%;
+	border: solid 1px #43642F;
+}
+
+.callToAction {
+	/* float: right; */
+    margin: 10px;
+    background: none;
+    border: solid 2px #97AF3B;
+    border-radius: 5px;
+    color: white;
+	padding: 8px 30px;
+	
+	background-color: #97AF3B;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin:  0 45%;
 }

@@ -470,8 +470,6 @@ function IsBroswerChrome() {
 
 
 
-
-
 // function MatrixItemPosCal(i) {
 // 	//calc x and y position
 // 	var HorTrans = ((StrDB[i].Ruimte / Biggest.Ruimte) * MatrixWidthCalced) * 0.9 - (vw * 0.07);

@@ -5,7 +5,8 @@
 
 	<!-- Required meta tags foor bootstrap -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
 
 	<!-- load css -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -19,11 +20,19 @@
 </head>
 
 <body onresize="RefreshViewportSizes()">
-	<div id="Chrome" class="alert alert-danger" role="alert"
+	<!-- <div id="Chrome" class="alert alert-danger" role="alert"
 		style="position: fixed; z-index: 10000; width: 90%; margin: 10px 0 0 5%">
 		Deze website is onder constructie en werkt mogelijk nog niet naar behoren in deze browser. Voor optimale
 		resultaten: gebruik Chrome op een computer.
+	</div> -->
+
+	<div class="menu">
+		<a href="index.html"><img class="logo-small" src="img/logo_small.svg" alt="De Straat Op Maat"></a>
+		<button class="menu-btn" onclick="goTo('contact')">Contact</button>
+		<button class="menu-btn" onclick="goTo('achtergrond')">Achtergrond</button>
+		<button class="menu-btn" onclick="goTo('home')">Home</button>
 	</div>
+
 	<div class="container-fluid">
 		<div class="row">
 
@@ -45,11 +54,21 @@
 
 	<!-- Body of the page -->
 	<div class="container-fluid">
-		<div class="row justify-content-md-center">
+		<div class="row justify-content-center">
+
+			<div class="col-12 row justify-content-center">
+				<div class="col-md-10 m-5" style="text-align:center; margin-bottom: 0px !important">
+					<p class="quote">
+						‘‘Het doel van ‘De Straat op Maat’ is het geven van inspiratie om goede wegen en straten te
+						maken en zo te komen tot leefbare, aantrekkelijke en bereikbare steden en dorpen. Dit op het
+						hele scala van verkeersintensiteiten, van rustig tot druk, van shared space tot stadsstraat.’’
+					</p>
+				</div>
+			</div>
 
 			<!-- Intro -->
-			<div class="col-md-12 row justify-content-md-center">
-				<div class="col-md-6 m-5" style="text-align:center; margin-bottom: 0px !important">
+			<div class="col-12 row justify-content-center">
+				<div class="col-md-6 m-5 col-12" style="text-align:center; margin-bottom: 0px !important">
 					<!-- <button onclick="TestButton()">TEST</button> -->
 					<h1>Drie pijlers: verkeersintensiteit, ruimte en identiteit</h1>
 					<p>
@@ -102,27 +121,29 @@
 			</div>
 
 			<!-- Container of the Matrix -->
-			<div class="MatrixContainer col-md-8" id="MatrixContainer">
+			<div class="MatrixContainer col-8" id="MatrixContainer">
 			</div>
 
 			<!-- Container of Index -->
-			<div class="col-md-10 px-5 BarsContainer" id="IndexContainer">
-				<h1 class=" display-4">Lijst van alle straten</h1>
+			<div class="col-md-10 BarsContainer mb-5" id="IndexContainer">
+				<!-- <h1 class=" display-4">Lijst van alle straten</h1> -->
 				<button class="btn-int" onclick="BuildLibrary('Intensiteit')"> Sorteer op intensiteit </button>
 				<button class="btn-rui" onclick="BuildLibrary('Ruimte')"> Sorteer op ruimte </button>
 				<br>
 			</div>
 
-			<!-- line breake -->
-			<div class="w-100"></div>
-
-
-
+			<div class="col-md-8 m-5 col-12" style="">
+				<h1>Vragen, opmerkingen of toelichting nodig?</h1>
+				<!-- <p>
+					Neem dan 
+				</p> -->
+				<button class="callToAction" onclick="goTo('contact')">Contact</button>
+			</div>
 		</div>
 	</div>
 
 	<!-- Footer -->
-	<footer class="py-5 px-5 footer">
+	<footer class="p-5 footer">
 		<div class="row justify-content-md-center">
 
 			<!-- Footer Collum 1 -->
@@ -179,9 +200,9 @@
 		crossorigin="anonymous"></script>
 
 	<!-- run java script -->
-	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript" src="StrDB.js"></script>
-
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="all_pages.js"></script>
 
 </body>
 

@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
-    <meta name='viewport' content='' />
+    <!-- <meta name='viewport' content='' /> -->
 
     <!-- Loading jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -37,9 +37,9 @@
 
     <div class="menu">
         <a href="index.html"><img class="logo-small" src="img/logo_small.svg" alt="De Straat Op Maat"></a>
-        <button class="menu-btn">Contact</button>
-        <button class="menu-btn">Methodiek</button>
-        <button class="menu-btn" onclick="goToHomePage()">Home</button>
+        <button class="menu-btn" onclick="goTo('contact')">Contact</button>
+        <button class="menu-btn" onclick="goTo('achtergrond')">Achtergrond</button>
+        <button class="menu-btn" onclick="goTo('home')">Home</button>
     </div>
 
     <!-- Body of the page -->
@@ -105,14 +105,14 @@
             <div class="col-6 crossSectionContianer" id="">
 
                 <div class="deviderLine"></div>
-                <h1 class="sectionTitle">profiel</h1>
+                <h1 class="sectionTitle">Profiel</h1>
             </div>
         </div>
         <div class="row justify-content-center" id="">
             <div class="col-8 judgement" id="">
                 <div class="deviderLine"></div>
 
-                <h1 class="sectionTitle">Expert judgement</h1>
+                <h1 class="sectionTitle">Expert Judgement</h1>
                 <div class="row justify-content-center" id="">
                     <div class="col-3" id="expertContainer">
                     </div>
@@ -133,6 +133,14 @@
                 <h1 class="sectionTitle">Functional Ambiance</h1>
             </div>
         </div>
+        <div class="row justify-content-center" id="BnA" style="display: none">
+            <div class="col-8 beforAndAfterContainer" id="">
+                <div class="deviderLine"></div>
+                <h1 class="sectionTitle">Voor & Na</h1>
+                <div class="beforAndAfterPhotos">
+                    </div>
+            </div>
+        </div>
         <div class="row justify-content-center" id="">
             <div class="col-12 photoSectionContainer" id="">
                 <div class="deviderLine"></div>
@@ -141,6 +149,13 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-8 m-5 col-12" style="">
+				<h1>Vragen, opmerkingen of toelichting nodig?</h1>
+				<!-- <p>
+					Neem dan 
+				</p> -->
+				<button class="callToAction" onclick="goTo('contact')">Contact</button>
+			</div>
         <!-- <div class="row justify-content-center" id="">
             <div class="col-12 photoSectionContainer" id="">
                 <div class="deviderLine"></div>
@@ -167,7 +182,7 @@
         </div>
     </div> -->
     </div>
-<div style="height: 100px;"></div>
+    <div style="height: 100px;"></div>
 
 
 
@@ -220,6 +235,7 @@
 
     <!-- run java script -->
     <script type="text/javascript" src="straat.js"></script>
+	<script type="text/javascript" src="all_pages.js"></script>
 
     <!-- required for Bootsrap -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

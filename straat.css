@@ -272,7 +272,7 @@ h1 {
 	z-index: -10;
 }
 
-.photosContainer {
+.photosContainer, .beforAndAfterPhotos {
 	width: fit-content;
 	margin: 0 auto;
 	text-align: center;
@@ -351,4 +351,21 @@ h1 {
 .logo-small { 
 	height: 50px;
 	padding: 5px 15px;
+}
+
+.callToAction {
+	/* float: right; */
+    margin: 10px;
+    background: none;
+    border: solid 2px #97AF3B;
+    border-radius: 5px;
+    color: white;
+	padding: 8px 30px;
+	
+	background-color: #97AF3B;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	margin:  0 45%;
 }
