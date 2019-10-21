@@ -1,7 +1,7 @@
 // var allStreetData;
 var streetData;
-const verkeersintensiteitMax = 32000;
-const ruimteMax = 75;
+const verkeersintensiteitMax = 20000;
+const ruimteMax = 60;
 
 // var s = document.createElement("script");
 // s.type = "text/javascript";
@@ -159,14 +159,26 @@ function initiateStreetContent() {
     var crossSectionimg = '<img class="largeImage" src="' + streetData.streetCrossSectionPng + '" alt="Profiel">';
     $(".crossSectionContianer").append(crossSectionimg);
 
-    $("#expertContainer").append(expertImg());
-    var judgement = "<p>" + streetData.expertJudgement.judgementText + "</p>" + streetData.expertJudgement.expertName + "<br>" + streetData.expertJudgement.expertDescription;
-    $(".textBuble").html(judgement);
+    if (streetData.expertJudgement.judgementText != undefined && streetData.expertJudgement.judgementText != "") {
+        $("#expertContainer").append(expertImg());
+        var judgement = "<p>" + streetData.expertJudgement.judgementText + "</p>" + streetData.expertJudgement.expertName + "<br>" + streetData.expertJudgement.expertDescription;
+        $(".textBuble").html(judgement);
+        $("#expert").show();
+    }
+
+    if (streetData.wegenscan != undefined) {
+        var wegenscan = "<p><b>Het profiel is geschikt tot circa</b><br> " + streetData.wegenscan[0] + " mvt/etm.</p>";
+        wegenscan += "<p><b>Positief wat betreft veiligheid:</b><br> " + streetData.wegenscan[1] + ".</p>";
+        wegenscan += "<p><b>Aandachtspunten wat betreft veiligheid:</b><br> " + streetData.wegenscan[2] + ".</p>";
+        $("#wegenscan").append(wegenscan).show();
+    }
+
+
 
     var FAImg = '<img class="largeImage" src="' + streetData.functionalAmbiance + '" alt="Functional Ambiance">';
     $(".functionalAmbianceContainer").append(FAImg);
 
-    if (streetData.beforAndAfter != undefined) {
+    if (streetData.beforAndAfter != undefined && streetData.beforAndAfter.length != 0) {
         for (i in streetData.beforAndAfter) {
             var html = '<div class="photoContainer "><img class="photo" src="';
             html += streetData.beforAndAfter[i].fileLocation;
@@ -180,16 +192,20 @@ function initiateStreetContent() {
         $("#BnA").show();
     }
 
-    for (i in streetData.photos) {
-        var html = '<div class="photoContainer"><img class="photo" src="';
-        html += streetData.photos[i].fileLocation;
-        html += '" alt="Foto ';
-        html += i;
-        html += '"><div class="photoTextContainer"><p class="photoText">';
-        html += streetData.photos[i].textDescription;
-        html += '</p></div></div>';
-        $(".photosContainer").append(html);
+    if (streetData.photos != undefined && streetData.photos.length != 0) {
+        for (i in streetData.photos) {
+            var html = '<div class="photoContainer"><img class="photo" src="';
+            html += streetData.photos[i].fileLocation;
+            html += '" alt="Foto ';
+            html += i;
+            html += '"><div class="photoTextContainer"><p class="photoText">';
+            html += streetData.photos[i].textDescription;
+            html += '</p></div></div>';
+            $(".photosContainer").append(html);
+        }
+        $("#photos").show();
     }
+
 
 
     function expertImg() {

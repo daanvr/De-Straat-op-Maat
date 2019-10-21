@@ -18,7 +18,7 @@
 
 
     <!-- load css -->
-    <link rel="stylesheet" type="text/css" href="straat.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- load scc fot bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -39,6 +39,7 @@
         <a href="index.html"><img class="logo-small" src="img/logo_small.svg" alt="De Straat Op Maat"></a>
         <button class="menu-btn" onclick="goTo('contact')">Contact</button>
         <button class="menu-btn" onclick="goTo('achtergrond')">Achtergrond</button>
+        <button class="menu-btn" onclick="goTo('index')">Straat Index</button>
         <button class="menu-btn" onclick="goTo('home')">Home</button>
     </div>
 
@@ -108,7 +109,7 @@
                 <h1 class="sectionTitle">Profiel</h1>
             </div>
         </div>
-        <div class="row justify-content-center" id="">
+        <div class="row justify-content-center" id="expert" style="display: none">
             <div class="col-8 judgement" id="">
                 <div class="deviderLine"></div>
 
@@ -128,9 +129,16 @@
             </div>
         </div>
         <div class="row justify-content-center" id="">
-            <div class="col-4 functionalAmbianceContainer" id="">
+            <div class="col-10 col-sm-7 col-md-5 col-lg-4 col-xl-3 functionalAmbianceContainer" id="">
                 <div class="deviderLine"></div>
                 <h1 class="sectionTitle">Functional Ambiance</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="">
+            <div class="col-10 col-sm-7 col-md-5 col-lg-4 col-xl-3" id="wegenscan" style="display: none;">
+                <div class="deviderLine"></div>
+                <h1 class="sectionTitle">De Wegenscan</h1>
+                
             </div>
         </div>
         <div class="row justify-content-center" id="BnA" style="display: none">
@@ -138,10 +146,10 @@
                 <div class="deviderLine"></div>
                 <h1 class="sectionTitle">Voor & Na</h1>
                 <div class="beforAndAfterPhotos">
-                    </div>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center" id="">
+        <div class="row justify-content-center" id="photos" style="display: none">
             <div class="col-12 photoSectionContainer" id="">
                 <div class="deviderLine"></div>
                 <h1 class="sectionTitle">Wat gaat goed, wat kan beter?</h1>
@@ -149,13 +157,15 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-8 m-5 col-12" style="">
-				<h1>Vragen, opmerkingen of toelichting nodig?</h1>
-				<!-- <p>
-					Neem dan 
-				</p> -->
-				<button class="callToAction" onclick="goTo('contact')">Contact</button>
-			</div>
+        <div class="row justify-content-center" id="">
+            <div class="col-md-8 m-5 col-12" style="text-align: center;">
+                <h1>Heeft u vragen of opmerkingen of wilt u graag zelf een straat indienen?</h1>
+                <!-- <p>
+                    Neem dan contact met ons op.
+                </p> -->
+                <button class="callToAction" onclick="goTo('contact')">Neem dan contact met ons op</button>
+            </div>
+        </div>
         <!-- <div class="row justify-content-center" id="">
             <div class="col-12 photoSectionContainer" id="">
                 <div class="deviderLine"></div>
@@ -235,7 +245,7 @@
 
     <!-- run java script -->
     <script type="text/javascript" src="straat.js"></script>
-	<script type="text/javascript" src="all_pages.js"></script>
+    <script type="text/javascript" src="all_pages.js"></script>
 
     <!-- required for Bootsrap -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

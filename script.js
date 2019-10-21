@@ -83,7 +83,7 @@ function BuildMatrix() {
 
 	//Matrix Intro Text Building
 	var MatrixIntroText = document.createElement("P");
-	MatrixIntroText.textContent = "Doel: Het geven van inspiratie om goede wegen en straten te maken, zowel ruimtelijk als verkeerskundig, en zo te komen tot leefbare, aantrekkelijke en bereikbare steden en dorpen. Dit op het hele scala van verkeersintensiteiten, van rustig tot druk, van shared space tot stadsstraat. Dit doen we graag met u samen!";
+	MatrixIntroText.textContent = "In onderstaande afbeelding staan de straten gesorteerd op verkeersintensiteit en de beschikbare ruimte. Klik op de bolletjes om direct naar de straat te gaan.";
 
 	//Matrix Legenda Building
 	var LegendaLeft = document.createElement("div");

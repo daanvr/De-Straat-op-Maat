@@ -25,6 +25,7 @@
         <a href="index.html"><img class="logo-small" src="img/logo_small.svg" alt="De Straat Op Maat"></a>
         <button class="menu-btn" onclick="goTo('contact')">Contact</button>
         <button class="menu-btn" onclick="goTo('achtergrond')">Achtergrond</button>
+        <button class="menu-btn" onclick="goTo('index')">Straat Index</button>
         <button class="menu-btn" onclick="goTo('home')">Home</button>
     </div>
 
@@ -122,19 +123,30 @@
                     </div>
                     <h3 style="text-align: center; color: #43642F;">Identiteit</h3>
                     <p>
-                        Wat is de identiteit van de straat of van de weg?
-                        Is het een stedelijke weg met allerlei voorzieningen
-                        of bijvoorbeeld een dorpse weg met enkel een woonfunctie?
+                        De identiteit van de straat wordt in beeld gebracht aan de hand van 9 kenmerken. Dit zijn: type
+                        gebied, de aanwezigheid van verblijfsaanleidingen, de functie van de gevels, de plek van de auto
+                        en de fiets, de aanwezigheid van parkeren, het type kruispunten, de aanwezigheid van openbaar
+                        vervoer, de aanwezigheid van groen en eventueel een speciaal karakter. Samen bepalen zij de
+                        identiteit van de straat. Bij iedere straat wordt het icoon dat per kenmerk van toepassing is in
+                        groen weergegeven.
                     </p>
                 </div>
 
                 <div class="col-md-8 m-5 col-12" style="">
+                    <img alt="Verkeersintensiteit, Ruimte & Identiteit" src="img/inte_ruim_iden.svg" width="100%"
+                        class="centerd-img my-5">
+                    <img alt="Alle identiteiten" src="img/Identiteit_all.svg" width="100%" class="centerd-img my-5">
+                </div>
+
+
+                <div class="col-md-8 m-5 col-12" style="">
+                    <h1>Waardering van de straat</h1>
                     <p>
                         De straten en wegen worden niet alleen in beeld gebracht, maar ook gewaardeerd. Dit doen we aan
-                        de hand van een viertal methodieken: De Wegenscan, Duurzaam Veilig, Expert Judgement en
-                        Functional Ambiance.
+                        de hand van een drietal methodieken: Functional Ambiance, Expert Judgement en De Wegenscan.
+                        Hierboven de grote titel ‘’Waardering van de straat’’.
                     </p>
-                    <h1>Functional Ambiance</h1>
+                    <h2>Functional Ambiance</h2>
                     <p>
                         De ontwerp- en procesmethodiek Functional Ambiance is mede door Goudappel Coffeng ontwikkeld. De
                         spidergraph van Functional Ambiance bestaat uit twee werelden: ‘the World of Flows’ en ‘the
@@ -145,65 +157,158 @@
                         aandachtspunten zitten en waar winst te behalen is in het ontwerp.
                     </p>
                 </div>
-                <div class="col-md-8 m-5 col-12" style="text-align:center;">
-                    <img src="img/FuncAmb.png" alt="Functional Ambiance" width="100%">
-                </div>
-                <div class="col-md-9 col-lg-8 col-xl-6 row ">
-                    <div class="col-sm-6 ">
-                        <h1 style="color:#43642F">World of Flows</h1>
-                        <div class="col-12 ">
-                            <h2>net</h2>
-                            <img src="img/flow_1.jpg" alt="Functional Ambiance" width="100%">
-                            <p>De positie en het belang van de straat in het netwerk.</p>
-                        </div>
-                        <div class="col-12 ">
-                            <h2>stromen</h2>
-                            <img src="img/flow_2.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Fluïditeit van verkeersdeelnemers in de langsrichting van de straat.</p>
-                        </div>
-                        <div class="col-12 ">
-                            <h2>kris-kras</h2>
-                            <img src="img/flow_3.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Bewegingen in de dwarsrichting van de straat</p>
-                        </div>
-                        <div class="col-12 ">
-                            <h2>verweven</h2>
-                            <img src="img/flow_4.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Tijdelijke samenkomst en menging</p>
-                        </div>
+                <div class="row justify-content-center" id="">
+                    <div class="col-md-5 col-10" style="text-align:center;">
+                        <img src="img/FuncAmb.png" alt="Functional Ambiance" width="100%" style="margin: auto;">
                     </div>
-                    <div class="col-sm-6 ">
-                        <h1 style="color: #97AF3B">World of Places</h1>
-                        <div class="col-12 ">
-                            <h2>clusteren</h2>
-                            <img src="img/places_1.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Activiteiten van sociale interactie en samenkomst van mensen </p>
+                    <div class="col-md-6  row ">
+                        <div class="col-sm-6 ">
+                            <h2 style="color:#43642F">World of Flows</h2>
+                            <div class="col-12 ">
+                                <h4>net</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/flow_1.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">De positie en het belang van de straat in het netwerk.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>stromen</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/flow_2.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Fluïditeit van verkeersdeelnemers in de langsrichting van
+                                            de
+                                            straat.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>kris-kras</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/flow_3.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Bewegingen in de dwarsrichting van de straat</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>verweven</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/flow_4.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Tijdelijke samenkomst en menging</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-12 ">
-                            <h2>frontyard</h2>
-                            <img src="img/places_2.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Manifestatie van de relatie tussen gebouwen en de straat</p>
-                        </div>
-                        <div class="col-12 ">
-                            <h2>zonering</h2>
-                            <img src="img/places_3.jpg" alt="Functional Ambiance" width="100%">
-                            <p>Organisatie van functies en activiteiten in de straat</p>
-                        </div>
-                        <div class="col-12 ">
-                            <h2>symboliek</h2>
-                            <img src="img/places_4.jpg" alt="Functional Ambiance" width="100%">
-                            <p>De manifestatie van het specifieke. Identiteit, eigenheid.</p>
-                        </div>
+                        <div class="col-sm-6 ">
+                            <h2 style="color: #97AF3B">World of Places</h2>
+                            <div class="col-12 ">
+                                <h4>clusteren</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/places_1.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Activiteiten van sociale interactie en samenkomst van
+                                            mensen </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>frontyard</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/places_2.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Manifestatie van de relatie tussen gebouwen en de straat
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>zonering</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/places_3.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">Organisatie van functies en activiteiten in de straat</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 ">
+                                <h4>symboliek</h4>
+                                <div class="row">
+                                    <div class="col-6 m-0 p-1">
+                                        <img src="img/places_4.jpg" alt="Functional Ambiance" width="100%">
+                                    </div>
+                                    <div class="col-6 m-0 p-0">
+                                        <p class="smallText">De manifestatie van het specifieke. Identiteit, eigenheid.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
                 </div>
+
+
 
                 <div class="col-md-8 m-5 col-12" style="">
-                    <h1>Expert Judgement</h1>
+                    <h2>Expert Judgement</h2>
                     <p>
                         We horen van een expert binnen de gemeente of van Goudappel Coffeng hoe zij deze straat
                         waarderen. Wat gaat goed en wat kan beter?
                     </p>
+                </div>
+                <div class="row justify-content-center" id="">
+                    <div class="col-10 judgement" id="">
+                        <div class="row justify-content-center" id="">
+                            <div class="col-6" id="expertContainer">
+                                <img class="expertImg" src="img/woman.svg" alt="expert">
+                            </div>
+                            <div class="col-6" id="">
+                                <svg class="textBublePointer" xmlns="http://www.w3.org/2000/svg" width="274.186"
+                                    height="221.458" viewBox="0 0 274.186 221.458">
+                                    <path id="Path_1856" data-name="Path 1856"
+                                        d="M322.745-146.144,48.56,75.314V-109.234Z"
+                                        transform="translate(322.745 75.314) rotate(180)" fill="#1aa79c" />
+                                </svg>
+                                <div class="textBuble">
+                                    </br> </br> </br> </br> </br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 m-5 col-12" style="">
+                    <h2>De Wegenscan</h2>
+                    <p>
+                            Deze, door Goudappel Coffeng ontwikkelde methodiek, geeft inzicht 
+                            in wat de intensiteit is die op een veilige wijze afgewikkeld zou kunnen 
+                            worden, passend bij het profiel van de weg. Het laat zien of het profiel en de
+                            intensiteit dus op elkaar aansluiten en waar de aandachtspunten liggen.  
+                    </p>
+                </div>
+                <div class="col-md-8 m-5 col-12" style="text-align: center;">
+                    <h1>Heeft u vragen of opmerkingen of wilt u graag zelf een straat indienen?</h1>
+                    <!-- <p>
+                        Neem dan contact met ons op.
+                    </p> -->
+                    <button class="callToAction" onclick="goTo('contact')">Neem dan contact met ons op</button>
                 </div>
             </div>
 

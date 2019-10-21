@@ -1,13 +1,12 @@
 /*CSS voor De Grote Straatatlas*/
 
-
-
 /* Intensiteit Kleur: dark turkwase: #00A79C */
+
 /* RuimteeKleur: Light green: #97AF3B */
+
 /* IdentiteitKleur: dark greem: #43642F */
 
 * {
-	
 	font-family: century-gothic, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -20,7 +19,7 @@ body {
 
 .logo-lightgreen {
 	background-color: #97AF3B;
-	height: calc(50vh - 25px);
+	height: 25vh;
 }
 
 .logo-white {
@@ -41,7 +40,7 @@ body {
 	/* border: solid 2px red; */
 }
 
-.LogoContainerCompliment1{
+.LogoContainerCompliment1 {
 	position: absolute;
 	width: 650px;
 	max-width: 90vw;
@@ -53,15 +52,13 @@ body {
 	border-right: 75px solid transparent;
 }
 
-
-.LogoContainerCompliment2{
+.LogoContainerCompliment2 {
 	position: absolute;
 	width: 650px;
 	max-width: 90vw;
-
 	height: 0;
 	/* border: solid 2px red; */
-	transform: translate(calc(50vw - 325px),66%);
+	transform: translate(calc(50vw - 325px), 66%);
 	border-top: 75px solid white;
 	border-left: 75px solid transparent;
 	border-right: 75px solid transparent;
@@ -82,24 +79,45 @@ body {
 	margin-left: 25px;
 }
 
-.logo-darkgreen{
+.logo-darkgreen {
 	background-color: #43642F;
-	height: calc(50vh - 25px);
+	height: 25vh;
 	z-index: -1;
+	overflow: hidden;
 }
 
-.GoDown {
+.svgLogo {
+	height: 101%;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+	transform: translate(-50%, -50%);
 	position: absolute;
+	top: 50%;
+	left: 50%;  
+}
+
+.LogoSvgContainer {
+	height: 50vh;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+	overflow: hidden;
+}
+.GoDown {
+	position: relative;
 	border: solid 50px transparent;
 	border-bottom: solid 50px white;
-	width: 10px;
-	height: 10px;
-	bottom: 0px;
-	transform: translate(calc(50vw - 50px),0);
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	transform: translate(-50%, 13vh);
 	/* border-radius: 100px; */
 	opacity: 1;
-	display: none; 
-
+	display: none;
 }
 
 .SectionTitle {
@@ -145,7 +163,6 @@ body {
 	display: none;
 	/* background-color: green;
 	width: 100%; */
-
 }
 
 .StrInMatrix {
@@ -185,11 +202,10 @@ body {
 	text-align: left;
 	width: 310px;
 	position: absolute;
-	border: solid black 1px; 
-	border-radius: 8px; 
+	border: solid black 1px;
+	border-radius: 8px;
 	background-color: white;
 }
-
 
 .MaxBar {
 	width: 255px;
@@ -211,7 +227,6 @@ body {
 
 .Ruimte {
 	background-color: #97AF3B;
-
 }
 
 .Intensiteit {
@@ -229,9 +244,8 @@ body {
 	margin-bottom: 0;
 }
 
-
 .footer {
-	background-color:#00A79C;
+	background-color: #00A79C;
 	color: white;
 }
 
@@ -244,31 +258,33 @@ body {
 }
 
 .btn-int {
-    background-color: transparent;
-    color: #00A79C;
-	border: 1px solid #00A79C; /* Green */
+	background-color: transparent;
+	color: #00A79C;
+	border: 1px solid #00A79C;
+	/* Green */
 	border-radius: 10px;
 	height: 2em;
 	margin: 10px;
 }
 
 .btn-rui {
-    background-color: transparent;
-    color: #97AF3B;
-	border: 1px solid #97AF3B; /* Green */
+	background-color: transparent;
+	color: #97AF3B;
+	border: 1px solid #97AF3B;
+	/* Green */
 	border-radius: 10px;
 	height: 2em;
 	margin: 10px;
 }
 
 .centerd-img-container {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 	align-items: flex-end;
 	margin: 0 auto;
 	width: 12vw;
 	height: 8vw;
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 
 .centerd-img {
@@ -278,13 +294,12 @@ body {
 
 .menu-btn {
 	float: right;
-    margin: 10px;
-    background: none;
-    border: none;
-    border-radius: 5px;
-    color: white;
+	margin: 10px;
+	background: none;
+	border: none;
+	border-radius: 5px;
+	color: white;
 	padding: 4px 10px;
-	
 	background-color: transparent;
 	text-align: center;
 	text-decoration: none;
@@ -300,7 +315,8 @@ body {
 	z-index: 999;
 	box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.1);
 }
-.logo-small { 
+
+.logo-small {
 	height: 50px;
 	padding: 5px 15px;
 }
@@ -315,7 +331,7 @@ h1 {
 	color: #43632E;
 }
 
-.hiddenByMenuSpace{
+.hiddenByMenuSpace {
 	width: 100vw;
 	height: 50px;
 }
@@ -328,17 +344,409 @@ h1 {
 
 .callToAction {
 	/* float: right; */
-    margin: 10px;
-    background: none;
-    border: solid 2px #97AF3B;
-    border-radius: 5px;
-    color: white;
+	margin: 10px;
+	background: none;
+	border: solid 2px #97AF3B;
+	border-radius: 5px;
+	color: white;
 	padding: 8px 30px;
-	
+	background-color: #97AF3B;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;	
+}
+
+.callToAction:hover {
+	cursor: pointer;
+}
+
+/*CSS voor De Grote Straatatlas*/
+
+/* Intensiteit Kleur: dark turkwase: #00A79C */
+
+/* RuimteeKleur: Light green: #97AF3B */
+
+/* IdentiteitKleur: dark greem: #43642F */
+
+* {
+	font-family: century-gothic, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	/* font: 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif; */
+}
+
+body {
+	margin: 0;
+}
+
+.header-img-container {
+	padding: 0 !important;
+	height: 53vh;
+	width: 100%;
+	background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	color: white;
+	background-position-y: 50px;
+}
+
+/* .header-img {
+	width: 100%;
+	clip-path: inset(15vh 0 35vh 0);
+	transform: translate(0 , -15vh);
+} */
+
+.StrTitle {
+	color: whitesmoke !important;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.footer {
+	background-color: #00A79C;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.FooterLogo {
+	width: 100%;
+}
+
+.NavBtnHome {
+	position: relative;
+	/* top: 50%; */
+	left: 50%;
+	transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	background-color: white;
+	color: #00A79C;
+	font-size: 26px;
+	padding: 6px 24px;
+	border: solid 2px #00A79C;
+	cursor: pointer;
+	border-radius: 10px;
+	text-align: center;
+	margin: 15px;
+}
+
+.NavBtnHome:hover {
+	background-color: whitesmoke;
+}
+
+.dumy {
+	background-color: green;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 10px;
+	padding: 15px;
+	margin: 15px;
+}
+
+.carousel {
+	/* margin: 15px; */
+	/* background-color: #97AF3B; */
+	/* padding: 10px; */
+}
+
+.Carouimgdiv {
+	height: 40vw;
+	/* width: 400px; */
+	/* padding-left: 10px; */
+	/* padding: 15px; */
+	padding: 0 5px;
+	text-align: center;
+}
+
+.Carouimg {
+	/* margin: 15px; */
+	/* padding: 15px; */
+	height: 40vw;
+	display: inline-block;
+}
+
+.slick-prev {
+	left: 100px;
+	background: red;
+	/*to notice it, is white*/
+}
+
+.slick-next {
+	right: 100px;
+	background: red;
+	/*to notice it, is white*/
+}
+
+.slick-prev:before, .slick-next:before {
+	color: black !important;
+}
+
+.e-mail-Link-Footer {
+	color: blue;
+	text-decoration: underline;
+}
+
+.test {
+	border: solid red 1px;
+	min-width: 10px !important;
+	min-height: 10px !important;
+}
+
+.int-container {
+	height: 122px;
+}
+
+.back-btn {
+	width: 25px;
+	height: 44px;
+	float: left;
+	margin: 47px 0 0 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.749' height='42.749' viewBox='0 0 24.749 42.749'%3E%3Cg id='back-btn' transform='translate(-31.126 -973.626)'%3E%3Cline id='Line_1' data-name='Line 1' x1='25' transform='translate(34.661 994.839) rotate(-45)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3Cline id='Line_2' data-name='Line 2' x1='25' transform='translate(52.339 1012.839) rotate(-135)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A");
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+}
+
+.data-container {
+	float: left;
+	width: calc(100% - 50px);
+	margin: 20px 0 0 0;
+}
+
+.data-title {
+	font-size: 30px;
+	text-align: center;
+	width: 100%
+}
+
+.data-bar {
+	width: 100%;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.data-nbr {
+	font-size: 15px;
+	text-align: center;
+}
+
+.next-btn {
+	height: 44px;
+	float: left;
+	width: 25px;
+	margin: 47px 0 0 0;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24.749' height='42.749' viewBox='0 0 24.749 42.749'%3E%3Cg id='next-btn' transform='translate(55.874 1016.374) rotate(-180)'%3E%3Cline id='Line_1' data-name='Line 1' x1='25' transform='translate(34.661 994.839) rotate(-45)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3Cline id='Line_2' data-name='Line 2' x1='25' transform='translate(52.339 1012.839) rotate(-135)' fill='none' stroke='%23aaa' stroke-linecap='round' stroke-width='5'/%3E%3C/g%3E%3C/svg%3E%0A");
+	background-size: 75% 75%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+}
+
+#int-progress {
+	background-color: #1AA79C;
+}
+
+#ruim-progress {
+	background-color: #97B03B;
+}
+
+#ident-progress {
+	background-color: #43632E;
+}
+
+.int {
+	color: #1AA79C;
+}
+
+.ruim {
+	color: #97B03B;
+}
+
+.ident {
+	color: #43632E;
+}
+
+.ident-container {
+	width: 100%
+}
+
+.ident-svg {
+	width: 100%;
+	height: 200px;
+	background-size: 100% auto;
+	-o-background-size: 100% auto;
+	-webkit-background-size: 100% auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* background-image: url(https://design.dat.nl/tests/ident-icons.svg); */
+	/* background-image: url(img/str2/Doorsnedes.png); */
+}
+
+.map {
+	/* width: 100%; */
+	height: 450px;
+	padding: 0 !important;
+	/* border-radius: 10px; */
+}
+
+.ident-container {}
+
+.largeImage {
+	width: 100%;
+}
+
+h1 {
+	color: #43632E !important;
+	text-align: center !important;
+}
+
+.expertImg {
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+
+.textBuble {
+	background-color: #1AA79C;
+	border-radius: 20px;
+	padding: 20px;
+	width: 90%;
+	float: right;
+	color: white;
+}
+
+.textBublePointer {
+	position: absolute;
+	width: 83px;
+	/* transform: translate(-27px, 0); */
+	z-index: -10;
+}
+
+.photosContainer, .beforAndAfterPhotos {
+	width: fit-content;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.photoContainer {
+	display: inline-block;
+	position: relative;
+	color: white;
+	width: fit-content;
+	margin: 10px 0 0 10px;
+}
+
+.photo {
+	height: 300px;
+	border-radius: 5px;
+}
+
+.photoTextContainer {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px;
+	border-radius: 0 0 5px 5px;
+	/* transform: translate(-50%, -50%); */
+}
+
+.photoText {
+	color: white;
+	margin: 0;
+}
+
+.deviderLine {
+	border-top: solid 1px #96AF3B;
+	width: 50vw;
+	height: 50px;
+	margin: 50px auto 0 auto;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.sectionTitle {
+	margin: 100px 0 50px 0;
+}
+
+.header-under-menu {
+	height: 50px;
+}
+
+.menu-btn {
+	float: right;
+	margin: 10px;
+	background: none;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 4px 10px;
+	background-color: transparent;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.menu {
+	width: 100%;
+	background-color: #43632E;
+	height: 50px;
+	position: fixed;
+	z-index: 999;
+}
+
+.logo-small {
+	height: 50px;
+	padding: 5px 15px;
+}
+
+.callToAction {
+	/* float: right; */
+	/* margin: 10px;
+	background: none;
+	border: solid 2px #97AF3B;
+	border-radius: 5px;
+	color: white;
+	padding: 8px 30px;
 	background-color: #97AF3B;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 25px;
-	margin:  0 45%;
+	margin: 0 45%; */
+}
+
+h2 {
+	text-align: center;
+}
+
+.h3name {
+	text-align: center;
+	color: #43642F;
+	margin: 10px 0 0 0;
+}
+
+.h5title {
+	text-align: center;
+	color: #43642F;
+}
+
+.smallText {
+	margin-bottom: 0.4em;
+	font-size: 0.8em;
 }

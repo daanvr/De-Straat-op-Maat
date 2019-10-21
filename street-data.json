@@ -1,475 +1,15 @@
 [
     {
-        "streetId": 34,
-        "headerPhoto": {
-            "photoLocation": "img/str2/header-img.jpg",
-            "ratio": 3.072
-        },
-        "streetName": "Avenue Ceramique",
-        "cityName": "Maastricht",
-        "verkeersintensiteit": 15000,
-        "ruimte": 42,
-        "identiteit": "img/str2/ident-icons.svg",
-        "geojsonLine": {
-            "type": "FeatureCollection",
-            "features": [
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "LineString",
-                        "coordinates": [
-                            [
-                                5.702872574329376,
-                                50.842122925721824
-                            ],
-                            [
-                                5.702421963214874,
-                                50.84411468159361
-                            ],
-                            [
-                                5.701968669891357,
-                                50.846048771313455
-                            ],
-                            [
-                                5.702000856399536,
-                                50.846116513808255
-                            ],
-                            [
-                                5.702075958251953,
-                                50.846163933496065
-                            ],
-                            [
-                                5.702207386493682,
-                                50.84620965957797
-                            ],
-                            [
-                                5.7023656368255615,
-                                50.84624691783379
-                            ],
-                            [
-                                5.702556073665618,
-                                50.84628586961485
-                            ],
-                            [
-                                5.702692866325378,
-                                50.84634683755475
-                            ],
-                            [
-                                5.702821612358093,
-                                50.84641627316702
-                            ],
-                            [
-                                5.702961087226868,
-                                50.846522966711284
-                            ],
-                            [
-                                5.703084468841553,
-                                50.84664490189165
-                            ],
-                            [
-                                5.7031649351119995,
-                                50.84677022382827
-                            ],
-                            [
-                                5.703205168247223,
-                                50.84693280313626
-                            ],
-                            [
-                                5.703186392784119,
-                                50.8470733660396
-                            ],
-                            [
-                                5.703138113021851,
-                                50.84719021921518
-                            ]
-                        ]
-                    }
-                }
-            ]
-        },
-        "geojsonFog": {
-            "type": "FeatureCollection",
-            "features": [
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703105926513672,
-                            50.84722239612516
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703207850456238,
-                            50.8470174796348
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703213214874268,
-                            50.846800707491674
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703105926513672,
-                            50.8465907085175
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702907443046569,
-                            50.846417966717226
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702349543571472,
-                            50.846204578904405
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.7020920515060425,
-                            50.84615715925789
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.701995491981506,
-                            50.84599796437783
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.70202499628067,
-                            50.84573884814537
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702110826969147,
-                            50.84543061650446
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702172517776489,
-                            50.8451901266671
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702236890792847,
-                            50.84486664894475
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702419281005859,
-                            50.84414516699222
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702470242977142,
-                            50.843896202320764
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.7025399804115295,
-                            50.84359134581165
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.70265531539917,
-                            50.84306800415952
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702741146087646,
-                            50.84268862013314
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.70278137922287,
-                            50.84247182787588
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702872574329376,
-                            50.842124619427906
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702569484710693,
-                            50.84337286408815
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702719688415527,
-                            50.84283088950452
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702333450317383,
-                            50.844524539175076
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702671408653259,
-                            50.84630619227035
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703154206275939,
-                            50.84691417428595
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.703068375587463,
-                            50.84669740166282
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702936947345734,
-                            50.84655175699094
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702741146087646,
-                            50.846412886066354
-                        ]
-                    }
-                },
-                {
-                    "type": "Feature",
-                    "properties": {},
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [
-                            5.702505111694336,
-                            50.8462892567247
-                        ]
-                    }
-                }
-            ]
-        },
-        "mapCity": {
-            "center": [
-                5.702184,
-                50.844943
-            ],
-            "pitch": 0,
-            "bearing": 0,
-            "zoom": 13
-        },
-        "mapStreet": {
-            "center": [
-                5.702184,
-                50.8447
-            ],
-            "pitch": 0,
-            "bearing": 0,
-            "zoom": 14.7
-        },
-        "streetCrossSectionPng": "img/str2/Doorsnedes.png",
-        "expertJudgement": {
-            "gender": "female",
-            "photoLocation": "",
-            "judgementText": "Dit vind ik een van de mooiste straten in Maastricht. De verkeersfunctie is nog vrij fors, maar door het scheiden van de rijrichtingen blijft de weg nog goed oversteek-baar. Hij oogt naar mijn mening wat duister door de vele bomen en de hoge bebouwing erlangs. De vele bomen zorgen er echter ook voor dat het zicht over het verkeer minder wordt. Daarnaast zou het mooi zijn als de aparte busbaan weg zou kunnen, waardoor er meer ruimte komt voor het overige verkeer.",
-            "expertName": "Viviane de Groot",
-            "expertDescription": "Verkeerskundig ontwerper bij gemeente Maastricht"
-        },
-        "functionalAmbiance": "img/str2/funtionalAmbiance.svg",
-        "photos": [
-            {
-                "fileLocation": "img/str2/1.jpg",
-                "textDescription": "Middenberm van haag zorgt voor een statig beeld"
-            },
-            {
-                "fileLocation": "img/str2/2.jpg",
-                "textDescription": "Zebrapaden"
-            },
-            {
-                "fileLocation": "img/str2/3.jpg",
-                "textDescription": "Brede parkeerstrook"
-            },
-            {
-                "fileLocation": "img/str2/4.jpg",
-                "textDescription": "Oversteekbaarheid alleen mogelijk op aangewezen plekken"
-            },
-            {
-                "fileLocation": "img/str2/5.jpg",
-                "textDescription": "Voldoende opstelruimte voor auto"
-            },
-            {
-                "fileLocation": "img/str2/6.jpg",
-                "textDescription": "Binnenpleinen langs de weg"
-            },
-            {
-                "fileLocation": "img/str2/7.jpg",
-                "textDescription": "Veel bomen aanwezig"
-            }
-        ]
-    },
-    {
         "streetId": 0,
         "headerPhoto": {
-            "photoLocation": "img/str3/header-img.jpg",
+            "photoLocation": "img/str0/header-img.jpg",
             "ratio": 3.072
         },
         "streetName": "Zandweg",
         "cityName": "Utrecht",
         "verkeersintensiteit": 500,
         "ruimte": 17.5,
-        "identiteit": "img/str3/ident-icons.svg",
+        "identiteit": "img/str0/ident-icons.svg",
         "geojsonLine": {
             "type": "FeatureCollection",
             "features": [
@@ -3212,41 +2752,1250 @@
             "bearing": 0,
             "zoom": 12.5
         },
-        "streetCrossSectionPng": "img/str3/Doorsnedes.png",
+        "streetCrossSectionPng": "img/str0/Doorsnedes.png",
         "expertJudgement": {
             "gender": "",
-            "photoLocation": "img/str3/marco.jpg",
+            "photoLocation": "img/str0/marco.jpg",
             "judgementText": "Samen met de gemeente en met bewoners, ondernemers en belanghebbenden hebben we een ontwerp gemaakt voor de Zandweg in Utrecht. Het is 1 van de top5             doorfietsroutes van de stad Utrecht en de langste fietsstraat van Nederland. We hebben een belans gezocht tussen woonkwaliteit, parkeren, de water- en de bomenstructuur, auto, voetganger en fiets. Het parkeren gebeurde in de oude situatie op de straat en op de stoep. Om meer ruimte aan de voetganger te geven, is de stoep verbreed. Het parkeren vindt incidenteel plaats op groene parkeerplaatsen in de berm op een eco plus rooster. De fietser kan zo prettig doorfietsen.",
             "expertName": "Marco Aarsen",
             "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
         },
-        "functionalAmbiance": "img/str3/funtionalAmbiance.svg",
+        "functionalAmbiance": "img/str0/funtionalAmbiance.svg",
         "beforAndAfter": [
             {
-                "fileLocation": "img/str3/5.jpg",
+                "fileLocation": "img/str0/5.jpg",
                 "textDescription": "Tot 2013"
             },
             {
-                "fileLocation": "img/str3/6.jpg",
+                "fileLocation": "img/str0/6.jpg",
                 "textDescription": "Vanaf 2013"
             }
         ],
         "photos": [
             {
-                "fileLocation": "img/str3/1.jpg",
+                "fileLocation": "img/str0/1.jpg",
                 "textDescription": "Brede berm en ligging aan kanaal"
             },
             {
-                "fileLocation": "img/str3/2.jpg",
+                "fileLocation": "img/str0/2.jpg",
                 "textDescription": "Materiaal van parkeerplekken is combinatie van groen en verharding"
             },
             {
-                "fileLocation": "img/str3/3.jpg",
+                "fileLocation": "img/str0/3.jpg",
                 "textDescription": "Redelijk smal voetpad"
             },
             {
-                "fileLocation": "img/str3/4.jpg",
+                "fileLocation": "img/str0/4.jpg",
                 "textDescription": "Afstemming van materialen"
+            }
+        ]
+    },
+    {
+        "streetId": 4,
+        "headerPhoto": {
+            "photoLocation": "img/str4/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Sterrrenbos",
+        "cityName": "Ede",
+        "verkeersintensiteit": 500,
+        "ruimte": 18.5,
+        "identiteit": "img/str4/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str4/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str4/marco.jpg",
+            "judgementText": "De woonstraten zijn mooi, groen en hebben een fijn ver-blijfsklimaat. Het ontbreken van parkeren en doorgaand verkeer zorgt voor fijn toeven in de voortuin en op straat. Hagen en bermen zorgen voor een aangenaam groen karakter en in combinatie met de hoogwaardige warm-rode bestrating voor een duurzaam mooie straat. Nadeel is dat in het groen, als gevolg van het smalle profiel in combinatie met een breed pakket aan ondergrondse in-fra, nauwelijks ruimte is voor bomen. Ook de gebruikswaarde van het groen is beperkt doordat het overal maar 3m breed is. Dat is jammer, in het laatste deel van Kernhem, dat in nu in ontwikkeling is, verbeteren we dit door het groen te laten divergeren van 2 tot 8m, zo ontstaat er meer ruimte voor beplanting, spelen en afwisseling in beeld en beleving.",
+            "expertName": "Ilke van Engelen",
+            "expertDescription": "Stedenbouwkundige bij gemeente Ede"
+        },
+        "functionalAmbiance": "img/str4/funtionalAmbiance.svg",
+        "beforAndAfter": [],
+        "photos": [
+            {
+                "fileLocation": "img/str4/1.jpg",
+                "textDescription": "Combinatie van groen en verharding voor parkeerplekken"
+            },
+            {
+                "fileLocation": "img/str4/2.jpg",
+                "textDescription": "Paaltjes om auto’s in groenstrook te voorkomen"
+            },
+            {
+                "fileLocation": "img/str4/3.jpg",
+                "textDescription": "Voetpad losliggend van het weggedeelte"
+            },
+            {
+                "fileLocation": "img/str4/4.jpg",
+                "textDescription": "Brede groenstrook scheidt het voetpad van de weg"
+            },
+            {
+                "fileLocation": "img/str4/5.jpg",
+                "textDescription": "Hagen voor elke woning zorgen voor een rustig en groen beeld"
+            }
+        ]
+    },
+    {
+        "streetId": 6,
+        "headerPhoto": {
+            "photoLocation": "img/str6/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Grote Krocht",
+        "cityName": "Zandvoort",
+        "verkeersintensiteit": 700,
+        "ruimte": 27,
+        "identiteit": "img/str6/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str6/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str6/marco.jpg",
+            "judgementText": "Het plein aan de Grote Krocht wordt als een gezellig plein ervaren, er rijden wel redelijk veel auto’s maar ook daardoor is er reuring, mensen komen bijvoorbeeld even samenzitten op de bankjes voor een praatje. Het is een centraal punt in Zandvoort en het is ingericht met een shared space karakter. Het is jammer dat het koepeltje op het plein niet gebruikt wordt, maar het geeft toch een charmant uiterlijk.",
+            "expertName": "Erik Jan Kok",
+            "expertDescription": "Stedenbouwkundige bij gemeente Zandvoort"
+        },
+        "functionalAmbiance": "img/str6/funtionalAmbiance.svg",
+        "beforAndAfter": [],
+        "photos": [
+            {
+                "fileLocation": "img/str6/1.jpg",
+                "textDescription": "Kunst"
+            },
+            {
+                "fileLocation": "img/str6/2.jpg",
+                "textDescription": "Koepeltje op het plein"
+            },
+            {
+                "fileLocation": "img/str6/3.jpg",
+                "textDescription": "Zitgelegenheden"
+            },
+            {
+                "fileLocation": "img/str6/4.jpg",
+                "textDescription": ""
+            },
+            {
+                "fileLocation": "img/str6/5.jpg",
+                "textDescription": "Levendig plein door omliggende winkels en bomen"
+            },
+            {
+                "fileLocation": "img/str6/6.jpg",
+                "textDescription": ""
+            },
+            {
+                "fileLocation": "img/str6/7.jpg",
+                "textDescription": "Redelijk veel vrachtverkeer door de omliggende winkels"
+            }
+        ]
+    },
+    {
+        "streetId": 7,
+        "headerPhoto": {
+            "photoLocation": "img/str7/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Hescheweg",
+        "cityName": "Oss",
+        "verkeersintensiteit": 1000,
+        "ruimte": 38,
+        "identiteit": "img/str7/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str7/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str7/marco.jpg",
+            "judgementText": "De Hescheweg is een hele bijzondere voorziening. Het is een van de eerste fietsstraten die in deze lengte in Ned-erland gerealiseerd is. Door fietsers wordt het als bijzonder comfortabel ervaren, alleen de bewoners aan de weg zijn er niet altijd even blij mee, zij vinden dat er soms te hard gereden wordt. Een zwakke schakel is het punt waar de fietsstraat met een s-bocht kruist met de Joannes Zwi-jsenlaan, hier neemt het autoverkeer toe en fietsers krijgen niet altijd voorrang. Verder zijn we erg tevreden en blij met de Hescheweg.",
+            "expertName": "Ellen Neelen",
+            "expertDescription": "Verkeerskundige bij gemeente Oss"
+        },
+        "functionalAmbiance": "img/str7/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str7/5.jpg",
+                "textDescription": "Tot 2003"
+            },
+            {
+                "fileLocation": "img/str7/6.jpg",
+                "textDescription": "Vanaf 2003"
+            }
+        ],
+        "photos": [
+            {
+                "fileLocation": "img/str7/1.jpg",
+                "textDescription": "Voetpad gescheiden van weg"
+            },
+            {
+                "fileLocation": "img/str7/2.jpg",
+                "textDescription": "Brede groenstroken, bomen hebben veel ruimte"
+            },
+            {
+                "fileLocation": "img/str7/3.jpg",
+                "textDescription": "Middenberm van ander materiaal"
+            },
+            {
+                "fileLocation": "img/str7/4.jpg",
+                "textDescription": "Dichte bomenrijen langs de weg"
+            }
+        ]
+    },
+    {
+        "streetId": 14,
+        "headerPhoto": {
+            "photoLocation": "img/str14/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Piushaven",
+        "cityName": "Tilburg",
+        "verkeersintensiteit": 2900,
+        "ruimte": 19.5,
+        "identiteit": "img/str14/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str14/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str14/marco.jpg",
+            "judgementText": "De Piushaven is een plek in Barcelona-stijl, er is gebruik gemaakt van speciale materialen in de openbare ruim-te die gekenmerkt worden door de hoge kwaliteit van de natuurlijke materialen met een sober karakter. Ken-merkend is de eenheid en het gebruik van één uniek materiaal dat maakt dat de plek beleeft wordt als een speciale gebied. </p> <p>De Piushaven heeft een sterke entree en een sterke relatie tussen historie en nieuw. Het heeft een multifunc-tioneel programma met horeca en functies in de open-bare ruimte, zoals het waterfront, de wandelpromenade en de terrassen en het water. De materialen zijn van hoge kwaliteit en de beleving van de plek en het waterfront is erg belangrijk. Een verbeterpunt is dat er nog steeds een sterke doorgaande lijn voor het verkeer is. Deze zorgt voor een minder sterke dwarsrelatie.",
+            "expertName": "Thijmen van Gompel",
+            "expertDescription": "Stedenbouwkundig ontwerper bij Goudappel Coffeng"
+        },
+        "functionalAmbiance": "img/str14/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str14/6.jpg",
+                "textDescription": "Tot 2013"
+            },
+            {
+                "fileLocation": "img/str14/7.jpg",
+                "textDescription": "Vanaf 2013"
+            }
+        ],
+        "photos": [
+            {
+                "fileLocation": "img/str14/1.jpg",
+                "textDescription": "Brede berm en ligging aan kanaal"
+            },
+            {
+                "fileLocation": "img/str14/2.jpg",
+                "textDescription": "Terrasjes van restaurants erg dicht op de weg"
+            },
+            {
+                "fileLocation": "img/str14/3.jpg",
+                "textDescription": "Afstemming van materialen"
+            },
+            {
+                "fileLocation": "img/str14/4.jpg",
+                "textDescription": "Ligging aan de haven"
+            },
+            {
+                "fileLocation": "img/str14/5.jpg",
+                "textDescription": "Ruimte voor fietsparkeren"
+            }
+        ]
+    },
+    {
+        "streetId": 17,
+        "headerPhoto": {
+            "photoLocation": "img/str17/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Dorpsstraat",
+        "cityName": "Elst",
+        "verkeersintensiteit": 3500,
+        "ruimte": 32,
+        "identiteit": "img/str17/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str17/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str17/marco.jpg",
+            "judgementText": "Als gemeente zijn we na de herinrichting van de Dorpsstraat erg verrast door de aantrekkingskracht van het centrum, het werd drukker dan gedacht en ook het gebruik is gewijzigd. Met deze toenemende drukte ervaren sommige inwoners de straat niet helemaal veilig. Hierom is er onderzoek gedaan naar de ver-keersveiligheid, maar uit de resultaten bleek dat de straat niet verkeersonveilig is.",
+            "expertName": "Theo Ahoud",
+            "expertDescription": "Projectleider bij gemeente Overbetuwe"
+        },
+        "functionalAmbiance": "img/str17/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str17/7.jpg",
+                "textDescription": "Tot 2016"
+            },
+            {
+                "fileLocation": "img/str17/8.jpg",
+                "textDescription": "Vanaf 2016"
+            }
+        ],
+        "photos": [
+            {
+                "fileLocation": "img/str17/1.jpg",
+                "textDescription": "Goed zicht op de kerk vanaf de Dorpsstraat"
+            },
+            {
+                "fileLocation": "img/str17/2.jpg",
+                "textDescription": "Aparte ruimtes voor parkeren"
+            },
+            {
+                "fileLocation": "img/str17/3.jpg",
+                "textDescription": "Levendige straat in centrum door eet- en winkelgelegenheden"
+            },
+            {
+                "fileLocation": "img/str17/4.jpg",
+                "textDescription": "Plantenbakken barrière tussen terras en straat"
+            },
+            {
+                "fileLocation": "img/str17/5.jpg",
+                "textDescription": "Ruimte voor fietsparkeren"
+            },
+            {
+                "fileLocation": "img/str17/6.jpg",
+                "textDescription": "Gebruik van verschillende afgestemde materialen"
+            }
+        ]
+    },
+    {
+        "streetId": 19,
+        "headerPhoto": {
+            "photoLocation": "img/str19/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Maliesingel",
+        "cityName": "Utrecht",
+        "verkeersintensiteit": 6000,
+        "ruimte": 20.5,
+        "identiteit": "img/str19/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str19/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str19/marco.jpg",
+            "judgementText": "De Maliesingel in Utrecht is in 2017 heringericht en is qua functie overgegaan van (auto)parkeerroute naar fiets-route. Het profiel is versmald om meer ruimte te maken voor de groene singels en om de nieuwe maximum snelheid te ondersteunen. We hebben de heringerichte Maliesingel beoordeeld net na de opening om te verken-nen of er nog aanvullende maatregelen nodig zijn. Ook fietsberaad heeft de straat onderzocht. De resultaten van de herinrichting zijn erg positief. De fietsers hebben veel duidelijker een plek gekregen, wat resulteert in meer fietsers, minder auto’s en een lagere autosnelheid. Een aandachtspunt blijft nog wel de autosnelheid op rustige momenten. Doordat er weinig belemmeringen aanwezig zijn, komen soms uitschieters in de snelheid voor. Ook gaat de gemeente het middendeel van de straat nog herstraten, omdat de klinkers erg los liggen.",
+            "expertName": "Rico Andriesse",
+            "expertDescription": "Adviseur mobiliteit en ruimte bij Goudappel Coffeng"
+        },
+        "functionalAmbiance": "img/str19/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str19/7.jpg",
+                "textDescription": "Tot 2017"
+            },
+            {
+                "fileLocation": "img/str19/8.jpg",
+                "textDescription": "Vanaf 2017"
+            }
+        ],
+        "photos": [
+            {
+                "fileLocation": "img/str19/1.jpg",
+                "textDescription": "Ligging aan singel"
+            },
+            {
+                "fileLocation": "img/str19/2.jpg",
+                "textDescription": "Losliggend voetpad"
+            },
+            {
+                "fileLocation": "img/str19/3.jpg",
+                "textDescription": "Veel bomen langs de weg"
+            },
+            {
+                "fileLocation": "img/str19/4.jpg",
+                "textDescription": "Brede fietsstroken"
+            },
+            {
+                "fileLocation": "img/str19/5.jpg",
+                "textDescription": "Ruimte voor fietsparkeren"
+            },
+            {
+                "fileLocation": "img/str19/6.jpg",
+                "textDescription": "Aandacht voor verlichting"
+            }
+        ]
+    },
+    {
+        "streetId": 20,
+        "headerPhoto": {
+            "photoLocation": "img/str20/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Steenstraat",
+        "cityName": "Arnhem",
+        "verkeersintensiteit": 6000,
+        "ruimte": 15,
+        "identiteit": "img/str20/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str20/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str20/marco.jpg",
+            "judgementText": "De Steenstraat kende een zeer verkeerskundig karakter waarbij de focus lag op het stromen van het (doorgaande) autoverkeer. De auto was dominant met alle gevolgen voor de veiligheid en positie van de voetgangers en fietsers. Bij de herinrichting is gekozen het asfalt in te ruilen voor gebakken klinkers en de auto en fiets te mengen. Het werd van een asfaltweg weer echt een Steenstraat. De kruispunten zijn als shared space pleinen verhoogd uitgevoerd. Het gegrag van de automobilist is aanzienlijk veranderd. Hij rijdt een stuk rustiger, dit mede door de kruispunt plateaus. En hij geeft meer ruimte en voorrang aan voetgangers en fietsers. De auto is nu te gast en niet langer de fietsers en voetgangers.",
+            "expertName": "Marco Aarsen",
+            "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
+        },
+        "functionalAmbiance": "img/str20/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str20/1.jpg",
+                "textDescription": "VOOR: Verkeerskundige inrichting kruispunten. Gedrag automobilisten dominant"
+            },
+            {
+                "fileLocation": "img/str20/2.jpg",
+                "textDescription": "NA: Shared space inrichting op kruispunten. Meer ruimte voor fietser en voetgangers."
+            },
+            {
+                "fileLocation": "img/str20/3.jpg",
+                "textDescription": "VOOR: verkeerskundige inrichting met nadruk op ‘stromen’ voor autoverkeer."
+            },
+            {
+                "fileLocation": "img/str20/4.jpg",
+                "textDescription": "NA: Fiets en auto gemengd, minder parkeren, meer ruimte voor de voetganger en lagere rijsnelheid."
+            }
+        ],
+        "photos": []
+    },
+    {
+        "streetId": 21,
+        "headerPhoto": {
+            "photoLocation": "img/str21/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Ruys de Beerenbrouckstraat",
+        "cityName": "Delft",
+        "verkeersintensiteit": 6000,
+        "ruimte": 28,
+        "identiteit": "img/str21/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str21/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str21/marco.jpg",
+            "judgementText": "De herinrichting van Ruys de Beerenbrouckstraat als wijkontsluitingsweg is geslaagd. Enerzijds heeft het een verkeersfunctie en kan er voldoende verkeer afgewikkeld worden en anderzijds is het ingericht als verblijfsgebied waar over het algemeen niet harder dan gewenste snelheid (40 km/u) wordt gereden. Er zijn veel oversteek-bewegingen, er is een smallere rijbaan met een midden-berm, een speelsere inrichting en er zijn geen verkeers-lichten. Het enige nadeel is dat door het smallere profiel vrachtauto’s wel wat vaker over de rammelstrook rijden.",
+            "expertName": "Mirjam van Oers",
+            "expertDescription": "Beleidsmedewerker verkeer en vervoer bij gemeente Delft"
+        },
+        "functionalAmbiance": "img/str21/funtionalAmbiance.svg",
+        "beforAndAfter": [],
+        "photos": [
+            {
+                "fileLocation": "img/str21/1.jpg",
+                "textDescription": "Bomenrijen langs de rijbanen"
+            },
+            {
+                "fileLocation": "img/str21/2.jpg",
+                "textDescription": "Vrijliggend voet- en fietspad"
+            },
+            {
+                "fileLocation": "img/str21/3.jpg",
+                "textDescription": "Bomen hebben niet veel groeiruimte"
+            },
+            {
+                "fileLocation": "img/str21/4.jpg",
+                "textDescription": "Voorzieningen liggen allen in dezelfde strook"
+            },
+            {
+                "fileLocation": "img/str21/5.jpg",
+                "textDescription": "In plaats van markeringen op de weg is hier een middenberm aangebracht"
+            }
+        ]
+    },
+    {
+        "streetId": 25,
+        "headerPhoto": {
+            "photoLocation": "img/str25/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Adriaen van Ostadelaan",
+        "cityName": "Utrecht",
+        "verkeersintensiteit": 9800,
+        "ruimte": 23.5,
+        "identiteit": "img/str25/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str25/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str25/marco.jpg",
+            "judgementText": "De Adriaen van Ostadelaan in Utrecht was verkeerskun-dig overgedimensioneerd. Er was zeer veel ruimte voor de auto en vrij weinig voor de fietser en voor de voetganger. Dit terwijl de weg door een woonwijk gaat. De kruispunten waren geregeld met verkeerlichten en auto’s reden vaak veel te hard. Dit gebied is nu ingericht met een snelheid van 30 km/h waarbij auto en fiets gemengd zijn. De totale ruimte voor de auto is ongeveer gehalveerd en de ruimte voor de voetganger en groen en verdubbeld. De winkels hebben nu ruimte voor terrassen en uitstallingen en de bewoners kun-nen veiliger oversteken. Er rijdt nog steeds vrij veel autover-keer voor een dergelijke inrichting.",
+            "expertName": "Marco Aarsen",
+            "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
+        },
+        "functionalAmbiance": "img/str25/funtionalAmbiance.svg",
+        "beforAndAfter": [
+            {
+                "fileLocation": "img/str25/4.jpg",
+                "textDescription": "Tot 2016"
+            },
+            {
+                "fileLocation": "img/str25/5.jpg",
+                "textDescription": "Vanaf 2016"
+            }
+        ],
+        "photos": [
+            {
+                "fileLocation": "img/str25/1.jpg",
+                "textDescription": "Levendige straat door winkels en restaurants"
+            },
+            {
+                "fileLocation": "img/str25/2.jpg",
+                "textDescription": "Afstemming van materialen"
+            },
+            {
+                "fileLocation": "img/str25/3.jpg",
+                "textDescription": "Veel groeiruimte voor bomen"
+            }
+        ]
+    },
+    {
+        "streetId": 28,
+        "headerPhoto": {
+            "photoLocation": "img/str28/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Blokhuisplein",
+        "cityName": "Leeuwarden",
+        "verkeersintensiteit": 11200,
+        "ruimte": 33,
+        "identiteit": "img/str28/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str28/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str28/marco.jpg",
+            "judgementText": "",
+            "expertName": "",
+            "expertDescription": ""
+        },
+        "functionalAmbiance": "img/str28/funtionalAmbiance.svg",
+        "beforAndAfter": [],
+        "photos": [
+            {
+                "fileLocation": "img/str28/1.jpg",
+                "textDescription": "Ruimte voor groen"
+            },
+            {
+                "fileLocation": "img/str28/2.jpg",
+                "textDescription": "Soms onduidelijk waar fietsers moeten fietsen"
+            },
+            {
+                "fileLocation": "img/str28/3.jpg",
+                "textDescription": "Bomen hebben ruimte om te groeien"
+            },
+            {
+                "fileLocation": "img/str28/4.jpg",
+                "textDescription": "Opvallende materiaalkeuze"
+            },
+            {
+                "fileLocation": "img/str28/5.jpg",
+                "textDescription": "Veel ruimte voor voetganger"
+            },
+            {
+                "fileLocation": "img/str28/6.jpg",
+                "textDescription": "Hangende verlichting"
+            }
+        ]
+    },
+    {
+        "streetId": 31,
+        "headerPhoto": {
+            "photoLocation": "img/str31/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Piet Heinkade",
+        "cityName": "Amsterdam",
+        "verkeersintensiteit": 12300,
+        "ruimte": 57.5,
+        "identiteit": "img/str31/ident-icons.svg",
+        "geojsonLine": {},
+        "geojsonFog": {},
+        "mapCity": {
+            "center": [
+                5.05,
+                52.08
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 10
+        },
+        "mapStreet": {
+            "center": [
+                5.03293,
+                52.0836
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 12.5
+        },
+        "streetCrossSectionPng": "img/str31/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "",
+            "photoLocation": "img/str31/marco.jpg",
+            "judgementText": "De Piet Heinkade is een interessant voorbeeld van een flexibel wegontwerp. De Piet Heinkade vervult vanaf de Ringweg A10 een belangrijke ontsluitingsfunctie voor de binnenstad van Amsterdam. Er is gekozen voor een profiel met een enkele rijstrook per richting, gecombineerd met een brede middenberm. Doordat de middenberm overrijdbaar is, geeft dit extra robuustheid bij calamiteiten. Een ruime tussenberm tussen de autorijbanen en het fietspad draagt ook bij aan flexibel gebruik: voor fietsparkeren, laad- en losplekken, onder-grondse afvalcontainers en nabij kruispunten een extra opstelvak voor auto’s.</p> <p>Enkele kritische noten: de stoep wordt van erg smal ge-leidelijk aan steeds breder, tot aan een unheimische leegte aan toe. Daarnaast is het niet overal gelukt om bezoekersfuncties in de plinten te krijgen. Hierdoor functioneert de straat voor voetgangers minder prettig.",
+            "expertName": "Christiaan Kwantes",
+            "expertDescription": "Adviseur mobiliteit en ruimte bij Goudappel Coffeng"
+        },
+        "functionalAmbiance": "img/str31/funtionalAmbiance.svg",
+        "beforAndAfter": [],
+        "photos": [
+            {
+                "fileLocation": "img/str31/1.jpg",
+                "textDescription": "Overal hoge bebouwing langs Piet Heinkade"
+            },
+            {
+                "fileLocation": "img/str31/2.jpg",
+                "textDescription": "Brede voetpad en fietspad afgescheiden van rijbaan"
+            },
+            {
+                "fileLocation": "img/str31/3.jpg",
+                "textDescription": "Groene havens aangelegd zodat voetpad minder breed lijkt"
+            },
+            {
+                "fileLocation": "img/str31/4.jpg",
+                "textDescription": "Aparte plekken voor fietsparkeren"
+            }
+        ]
+    },
+    {
+        "streetId": 34,
+        "headerPhoto": {
+            "photoLocation": "img/str2/header-img.jpg",
+            "ratio": 3.072
+        },
+        "streetName": "Avenue Ceramique",
+        "cityName": "Maastricht",
+        "verkeersintensiteit": 15000,
+        "ruimte": 42,
+        "identiteit": "img/str2/ident-icons.svg",
+        "geojsonLine": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "LineString",
+                        "coordinates": [
+                            [
+                                5.702872574329376,
+                                50.842122925721824
+                            ],
+                            [
+                                5.702421963214874,
+                                50.84411468159361
+                            ],
+                            [
+                                5.701968669891357,
+                                50.846048771313455
+                            ],
+                            [
+                                5.702000856399536,
+                                50.846116513808255
+                            ],
+                            [
+                                5.702075958251953,
+                                50.846163933496065
+                            ],
+                            [
+                                5.702207386493682,
+                                50.84620965957797
+                            ],
+                            [
+                                5.7023656368255615,
+                                50.84624691783379
+                            ],
+                            [
+                                5.702556073665618,
+                                50.84628586961485
+                            ],
+                            [
+                                5.702692866325378,
+                                50.84634683755475
+                            ],
+                            [
+                                5.702821612358093,
+                                50.84641627316702
+                            ],
+                            [
+                                5.702961087226868,
+                                50.846522966711284
+                            ],
+                            [
+                                5.703084468841553,
+                                50.84664490189165
+                            ],
+                            [
+                                5.7031649351119995,
+                                50.84677022382827
+                            ],
+                            [
+                                5.703205168247223,
+                                50.84693280313626
+                            ],
+                            [
+                                5.703186392784119,
+                                50.8470733660396
+                            ],
+                            [
+                                5.703138113021851,
+                                50.84719021921518
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        "geojsonFog": {
+            "type": "FeatureCollection",
+            "features": [
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703105926513672,
+                            50.84722239612516
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703207850456238,
+                            50.8470174796348
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703213214874268,
+                            50.846800707491674
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703105926513672,
+                            50.8465907085175
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702907443046569,
+                            50.846417966717226
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702349543571472,
+                            50.846204578904405
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.7020920515060425,
+                            50.84615715925789
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.701995491981506,
+                            50.84599796437783
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.70202499628067,
+                            50.84573884814537
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702110826969147,
+                            50.84543061650446
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702172517776489,
+                            50.8451901266671
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702236890792847,
+                            50.84486664894475
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702419281005859,
+                            50.84414516699222
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702470242977142,
+                            50.843896202320764
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.7025399804115295,
+                            50.84359134581165
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.70265531539917,
+                            50.84306800415952
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702741146087646,
+                            50.84268862013314
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.70278137922287,
+                            50.84247182787588
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702872574329376,
+                            50.842124619427906
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702569484710693,
+                            50.84337286408815
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702719688415527,
+                            50.84283088950452
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702333450317383,
+                            50.844524539175076
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702671408653259,
+                            50.84630619227035
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703154206275939,
+                            50.84691417428595
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.703068375587463,
+                            50.84669740166282
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702936947345734,
+                            50.84655175699094
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702741146087646,
+                            50.846412886066354
+                        ]
+                    }
+                },
+                {
+                    "type": "Feature",
+                    "properties": {},
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            5.702505111694336,
+                            50.8462892567247
+                        ]
+                    }
+                }
+            ]
+        },
+        "mapCity": {
+            "center": [
+                5.702184,
+                50.844943
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 13
+        },
+        "mapStreet": {
+            "center": [
+                5.702184,
+                50.8447
+            ],
+            "pitch": 0,
+            "bearing": 0,
+            "zoom": 14.7
+        },
+        "streetCrossSectionPng": "img/str2/Doorsnedes.png",
+        "expertJudgement": {
+            "gender": "female",
+            "photoLocation": "",
+            "judgementText": "Dit vind ik een van de mooiste straten in Maastricht. De verkeersfunctie is nog vrij fors, maar door het scheiden van de rijrichtingen blijft de weg nog goed oversteek-baar. Hij oogt naar mijn mening wat duister door de vele bomen en de hoge bebouwing erlangs. De vele bomen zorgen er echter ook voor dat het zicht over het verkeer minder wordt. Daarnaast zou het mooi zijn als de aparte busbaan weg zou kunnen, waardoor er meer ruimte komt voor het overige verkeer.",
+            "expertName": "Viviane de Groot",
+            "expertDescription": "Verkeerskundig ontwerper bij gemeente Maastricht"
+        },
+        "functionalAmbiance": "img/str2/funtionalAmbiance.svg",
+        "photos": [
+            {
+                "fileLocation": "img/str2/1.jpg",
+                "textDescription": "Middenberm van haag zorgt voor een statig beeld"
+            },
+            {
+                "fileLocation": "img/str2/2.jpg",
+                "textDescription": "Zebrapaden"
+            },
+            {
+                "fileLocation": "img/str2/3.jpg",
+                "textDescription": "Brede parkeerstrook"
+            },
+            {
+                "fileLocation": "img/str2/4.jpg",
+                "textDescription": "Oversteekbaarheid alleen mogelijk op aangewezen plekken"
+            },
+            {
+                "fileLocation": "img/str2/5.jpg",
+                "textDescription": "Voldoende opstelruimte voor auto"
+            },
+            {
+                "fileLocation": "img/str2/6.jpg",
+                "textDescription": "Binnenpleinen langs de weg"
+            },
+            {
+                "fileLocation": "img/str2/7.jpg",
+                "textDescription": "Veel bomen aanwezig"
             }
         ]
     }

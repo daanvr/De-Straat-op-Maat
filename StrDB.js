@@ -50,7 +50,7 @@ function LoadDB() {
         Name: "Grote Krocht",
         Plaatsnaam: "Zandvoort",
         Intensiteit: 700,
-        Ruimte: 61.5,
+        Ruimte: 27,
         ID: 0
     };
     StrDB[7] = { //in
