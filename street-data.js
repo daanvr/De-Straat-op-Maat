@@ -4569,7 +4569,7 @@ const allStreetData = [
             "photoLocation": "img/str14/face.svg",
             "judgementText": "De Piushaven is in de afgelopen jaren ontwikkeld tot een van de belangrijkste ontmoetingsplekken in het centrum van Tilburg. De openbare ruimte is aangelegd in hoogwaardig natuurlijke materialen met een sober karakter. Kenmerkend is de eenheid en het gebruik van één uniek materiaal dat maakt dat de plek beleefd wordt als een aantrekkelijk verblijfsgebied.</p> <p>In de Piushaven is een sterke relatie tussen historie en nieuw, het is onderdeel van de oude industrieschil dat meedoet in het verhaal van Tilburg. Het gebied bestaat uit een multifunctioneel programma met horeca, wonen, werken en verblijfsplekken in de openbare ruimte met een sterke relatie met het water, zoals de wateroevers, de wandelpromenade en de terrassen langs het water. Hierdoor is de beleving van het water een van de grootste kwaliteiten van de Piushaven. Een verbeterpunt is dat er nog steeds een sterke doorgaande lijn voor het verkeer is. Dit zorgt voor een minder sterke dwarsrelatie.",
             "expertName": "Thijmen van Gompel",
-            "expertDescription": "Stedenbouwkundig ontwerper bij Goudappel Coffeng"
+            "expertDescription": "Stedenbouwkundige (MSc) bij Goudappel Coffeng"
         },
         "functionalAmbiance": "img/str14/funtional_ambiance.svg",
         "beforAndAfter": [
