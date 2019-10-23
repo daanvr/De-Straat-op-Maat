@@ -83,14 +83,14 @@ function BuildMatrix() {
 
 	//Matrix Intro Text Building
 	var MatrixIntroText = document.createElement("P");
-	MatrixIntroText.textContent = "In onderstaande afbeelding staan de straten gesorteerd op verkeersintensiteit en de beschikbare ruimte. Klik op de bolletjes om direct naar de straat te gaan.";
+	MatrixIntroText.textContent = "In de onderstaande afbeelding staan de straten gesorteerd op verkeersintensiteit en de beschikbare ruimte. Klik op de bolletjes om direct naar de straat te gaan.";
 
 	//Matrix Legenda Building
 	var LegendaLeft = document.createElement("div");
 	LegendaLeft.id = "MatrixTextLeft";
 	LegendaLeft.className = "MatrixTextLeft";
 	LegendaLeft.innerHTML = "<img src='img/intensiteit.png' alt='' height='22'>"
-	LegendaLeft.innerHTML += "  Verkeersinensieit";
+	LegendaLeft.innerHTML += "  verkeersintensiteit";
 
 	//Matrix Legenda Building
 	var LegendaBottom = document.createElement("div");

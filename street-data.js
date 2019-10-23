@@ -2756,7 +2756,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str0/face.svg",
-            "judgementText": "Samen met de gemeente en met bewoners, ondernemers en belanghebbenden hebben we een ontwerp gemaakt voor de Zandweg in Utrecht. Het is 1 van de top5             doorfietsroutes van de stad Utrecht en de langste fietsstraat van Nederland. We hebben een belans gezocht tussen woonkwaliteit, parkeren, de water- en de bomenstructuur, auto, voetganger en fiets. Het parkeren gebeurde in de oude situatie op de straat en op de stoep. Om meer ruimte aan de voetganger te geven, is de stoep verbreed. Het parkeren vindt incidenteel plaats op groene parkeerplaatsen in de berm op een eco plus rooster. De fietser kan zo prettig doorfietsen.",
+            "judgementText": "Samen met de gemeente en met bewoners, ondernemers en belanghebbenden hebben we een ontwerp gemaakt voor de Zandweg in Utrecht. Het is 1 van de top 5 doorfietsroutes van de stad Utrecht en de langste fietsstraat van Nederland. We hebben een balans gezocht tussen woonkwaliteit, parkeren, de water- en de bomenstructuur, auto, voetganger en fiets. Het parkeren gebeurde in de oude situatie op de straat en op de stoep. Om meer ruimte aan de voetganger te geven, is de stoep verbreed. Het parkeren vindt incidenteel plaats op groene parkeerplaatsen in de berm op een eco plus rooster. De fietser kan zo prettig doorfietsen.",
             "expertName": "Marco Aarsen",
             "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
         },
@@ -2797,7 +2797,7 @@ const allStreetData = [
             "photoLocation": "img/str4/header_img.jpg",
             "ratio": 3.072
         },
-        "streetName": "Sterrrenbos",
+        "streetName": "Sterrenbos",
         "cityName": "Ede",
         "verkeersintensiteit": 500,
         "ruimte": 18.5,
@@ -2958,7 +2958,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str4/face.svg",
-            "judgementText": "De woonstraten zijn mooi, groen en hebben een fijn ver-blijfsklimaat. Het ontbreken van parkeren en doorgaand verkeer zorgt voor fijn toeven in de voortuin en op straat. Hagen en bermen zorgen voor een aangenaam groen karakter en in combinatie met de hoogwaardige warm-rode bestrating voor een duurzaam mooie straat. Nadeel is dat in het groen, als gevolg van het smalle profiel in combinatie met een breed pakket aan ondergrondse in-fra, nauwelijks ruimte is voor bomen. Ook de gebruikswaarde van het groen is beperkt doordat het overal maar 3m breed is. Dat is jammer, in het laatste deel van Kernhem, dat in nu in ontwikkeling is, verbeteren we dit door het groen te laten divergeren van 2 tot 8m, zo ontstaat er meer ruimte voor beplanting, spelen en afwisseling in beeld en beleving.",
+            "judgementText": "De woonstraten zijn mooi, groen en hebben een fijn verblijfsklimaat. Het ontbreken van parkeren en doorgaand verkeer zorgt voor fijn toeven in de voortuin en op straat. Hagen en bermen zorgen voor een aangenaam groen karakter en in combinatie met de hoogwaardige warm-rode bestrating voor een duurzaam mooie straat. Nadeel is dat in het groen, als gevolg van het smalle profiel in combinatie met een breed pakket aan ondergrondse infra, nauwelijks ruimte is voor bomen. Ook de gebruikswaarde van het groen is beperkt doordat het overal maar 3 meter breed is. Dat is jammer, in het laatste deel van Kernhem, dat nu in ontwikkeling is, verbeteren we dit door het groen te laten divergeren van 2 tot 8 meter, zo ontstaat er meer ruimte voor beplanting, spelen en afwisseling in beeld en beleving.",
             "expertName": "Ilke van Engelen",
             "expertDescription": "Stedenbouwkundige bij gemeente Ede"
         },
@@ -2997,7 +2997,7 @@ const allStreetData = [
         "streetName": "Grote Krocht",
         "cityName": "Zandvoort",
         "verkeersintensiteit": 700,
-        "ruimte": 27,
+        "ruimte": 61.5,
         "identiteit": "img/str6/ident_icons.svg",
         "geojsonLine": {
             "type": "FeatureCollection",
@@ -4239,7 +4239,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str7/face.svg",
-            "judgementText": "De Hescheweg is een hele bijzondere voorziening. Het is een van de eerste fietsstraten die in deze lengte in Ned-erland gerealiseerd is. Door fietsers wordt het als bijzonder comfortabel ervaren, alleen de bewoners aan de weg zijn er niet altijd even blij mee, zij vinden dat er soms te hard gereden wordt. Een zwakke schakel is het punt waar de fietsstraat met een s-bocht kruist met de Joannes Zwi-jsenlaan, hier neemt het autoverkeer toe en fietsers krijgen niet altijd voorrang. Verder zijn we erg tevreden en blij met de Hescheweg.",
+            "judgementText": "De Hescheweg is een hele bijzondere voorziening. Het is een van de eerste fietsstraten die in deze lengte in Nederland gerealiseerd is. Door fietsers wordt het als bijzonder comfortabel ervaren, alleen de bewoners aan de weg zijn er niet altijd even blij mee, zij vinden dat er soms te hard gereden wordt. Een zwakke schakel is het punt waar de fietsstraat met een s-bocht kruist met de Joannes Zwijsenlaan, hier neemt het autoverkeer toe en fietsers krijgen niet altijd voorrang. Verder zijn we erg tevreden en blij met de Hescheweg.",
             "expertName": "Ellen Neelen",
             "expertDescription": "Verkeerskundige bij gemeente Oss"
         },
@@ -4254,7 +4254,7 @@ const allStreetData = [
                 "textDescription": "Vanaf 2003"
             }
         ],
-        "wegenscan": ["2500", "Voorpelbaarheid en sociale vergevingsgezindheid", "Hoge snelheid door gestrekt profiel en asfalt, weinig herkenbaarheid als verblijfsgebied"],
+        "wegenscan": ["2500", "Voorspelbaarheid en sociale vergevingsgezindheid", "Hoge snelheid door gestrekt profiel en asfalt, weinig herkenbaarheid als verblijfsgebied"],
         "photos": [
             {
                 "fileLocation": "img/str7/1.jpg",
@@ -4569,7 +4569,7 @@ const allStreetData = [
             "photoLocation": "img/str14/face.svg",
             "judgementText": "De Piushaven is in de afgelopen jaren ontwikkeld tot een van de belangrijkste ontmoetingsplekken in het centrum van Tilburg. De openbare ruimte is aangelegd in hoogwaardig natuurlijke materialen met een sober karakter. Kenmerkend is de eenheid en het gebruik van één uniek materiaal dat maakt dat de plek beleefd wordt als een aantrekkelijk verblijfsgebied.</p> <p>In de Piushaven is een sterke relatie tussen historie en nieuw, het is onderdeel van de oude industrieschil dat meedoet in het verhaal van Tilburg. Het gebied bestaat uit een multifunctioneel programma met horeca, wonen, werken en verblijfsplekken in de openbare ruimte met een sterke relatie met het water, zoals de wateroevers, de wandelpromenade en de terrassen langs het water. Hierdoor is de beleving van het water een van de grootste kwaliteiten van de Piushaven. Een verbeterpunt is dat er nog steeds een sterke doorgaande lijn voor het verkeer is. Dit zorgt voor een minder sterke dwarsrelatie.",
             "expertName": "Thijmen van Gompel",
-            "expertDescription": "Stedenbouwkundige (MSc) bij Goudappel Coffeng"
+            "expertDescription": "Stedenbouwkundige bij Goudappel Coffeng"
         },
         "functionalAmbiance": "img/str14/funtional_ambiance.svg",
         "beforAndAfter": [
@@ -4582,11 +4582,11 @@ const allStreetData = [
                 "textDescription": "Vanaf 2013"
             }
         ],
-        "wegenscan": ["4000", "Homogenteit en sociale vergevingsgezindheid", "Gladheid, fietscomfort, smalle parkeervakken, oversteken naar terrassen"],
+        "wegenscan": ["4000", "Homogeniteit en sociale vergevingsgezindheid", "Gladheid, fietscomfort, smalle parkeervakken, oversteken naar terrassen"],
         "photos": [
             {
                 "fileLocation": "img/str14/1.jpg",
-                "textDescription": "Brede berm en ligging aan kanaal"
+                "textDescription": "Brede wateroevers en ligging aan het water"
             },
             {
                 "fileLocation": "img/str14/2.jpg",
@@ -5089,7 +5089,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str17/face.svg",
-            "judgementText": "Als gemeente zijn we na de herinrichting van de Dorpsstraat erg verrast door de aantrekkingskracht van het centrum, het werd drukker dan gedacht en ook het gebruik is gewijzigd. Met deze toenemende drukte ervaren sommige inwoners de straat niet helemaal veilig. Hierom is er onderzoek gedaan naar de ver-keersveiligheid, maar uit de resultaten bleek dat de straat niet verkeersonveilig is.",
+            "judgementText": "Als gemeente zijn we na de herinrichting van de Dorpsstraat erg verrast door de aantrekkingskracht van het centrum. Het werd drukker dan gedacht en ook het gebruik is gewijzigd. Met deze toenemende drukte ervaren sommige inwoners de straat niet helemaal veilig. Hierom is er onderzoek gedaan naar de verkeersveiligheid, maar uit de resultaten bleek dat de straat niet verkeersonveilig is.",
             "expertName": "Theo Ahoud",
             "expertDescription": "Projectleider bij gemeente Overbetuwe"
         },
@@ -5104,7 +5104,7 @@ const allStreetData = [
                 "textDescription": "Vanaf 2016"
             }
         ],
-        "wegenscan": ["4000", "Homogenteit en sociale vergevingsgezindheid", "In- en uitparkeren haakse vakken, positie fietsers op smalle stroken"],
+        "wegenscan": ["4000", "Homogeniteit en sociale vergevingsgezindheid", "In- en uitparkeren haakse vakken, positie fietsers op smalle stroken"],
         "photos": [
             {
                 "fileLocation": "img/str17/1.jpg",
@@ -5898,7 +5898,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str19/face.svg",
-            "judgementText": "De Maliesingel in Utrecht is in 2017 heringericht en is qua functie overgegaan van (auto)parkeerroute naar fiets-route. Het profiel is versmald om meer ruimte te maken voor de groene singels en om de nieuwe maximum snelheid te ondersteunen. We hebben de heringerichte Maliesingel beoordeeld net na de opening om te verken-nen of er nog aanvullende maatregelen nodig zijn. Ook fietsberaad heeft de straat onderzocht. De resultaten van de herinrichting zijn erg positief. De fietsers hebben veel duidelijker een plek gekregen, wat resulteert in meer fietsers, minder auto’s en een lagere autosnelheid. Een aandachtspunt blijft nog wel de autosnelheid op rustige momenten. Doordat er weinig belemmeringen aanwezig zijn, komen soms uitschieters in de snelheid voor. Ook gaat de gemeente het middendeel van de straat nog herstraten, omdat de klinkers erg los liggen.",
+            "judgementText": "De Maliesingel in Utrecht is in 2017 heringericht en is qua functie overgegaan van (auto)parkeerroute naar fietsroute. Het profiel is versmald om meer ruimte te maken voor de groene singels en om de nieuwe maximum snelheid te ondersteunen. We hebben de heringerichte Maliesingel beoordeeld net na de opening om te verkennen of er nog aanvullende maatregelen nodig zijn. Ook fietsberaad heeft de straat onderzocht. De resultaten van de herinrichting zijn erg positief. De fietsers hebben veel duidelijker een plek gekregen, wat resulteert in meer fietsers, minder auto’s en een lagere autosnelheid. Een aandachtspunt blijft nog wel de autosnelheid op rustige momenten. Doordat er weinig belemmeringen aanwezig zijn, komen soms uitschieters in de snelheid voor. Ook gaat de gemeente het middendeel van de straat nog herbestraten, omdat de klinkers erg los liggen.",
             "expertName": "Rico Andriesse",
             "expertDescription": "Adviseur mobiliteit en ruimte bij Goudappel Coffeng"
         },
@@ -6342,7 +6342,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str20/face.svg",
-            "judgementText": "De Steenstraat kende een zeer verkeerskundig karakter waarbij de focus lag op het stromen van het (doorgaande) autoverkeer. De auto was dominant met alle gevolgen voor de veiligheid en positie van de voetgangers en fietsers. Bij de herinrichting is gekozen het asfalt in te ruilen voor gebakken klinkers en de auto en fiets te mengen. Het werd van een asfaltweg weer echt een Steenstraat. De kruispunten zijn als shared space pleinen verhoogd uitgevoerd. Het gegrag van de automobilist is aanzienlijk veranderd. Hij rijdt een stuk rustiger, dit mede door de kruispunt plateaus. En hij geeft meer ruimte en voorrang aan voetgangers en fietsers. De auto is nu te gast en niet langer de fietsers en voetgangers.",
+            "judgementText": "De Steenstraat kende een zeer verkeerskundig karakter waarbij de focus lag op het stromen van het (doorgaande) autoverkeer. De auto was dominant met alle gevolgen voor de veiligheid en positie van de voetgangers en fietsers. Bij de herinrichting is gekozen het asfalt in te ruilen voor gebakken klinkers en de auto en fiets te mengen. Het werd van een asfaltweg weer echt een Steenstraat. De kruispunten zijn als shared space pleinen verhoogd uitgevoerd. Het gedrag van de automobilist is aanzienlijk veranderd. Men rijdt een stuk rustiger, dit mede door de kruispunt-plateaus. En men geeft meer ruimte en voorrang aan voetgangers en fietsers. De auto is nu te gast waar voorheen de fietsers en voetgangers te gast waren.",
             "expertName": "Marco Aarsen",
             "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
         },
@@ -6350,22 +6350,22 @@ const allStreetData = [
         "beforAndAfter": [
             {
                 "fileLocation": "img/str20/1.jpg",
-                "textDescription": "VOOR: Verkeerskundige inrichting kruispunten. Gedrag automobilisten dominant"
+                "textDescription": "Voor: Verkeerskundige inrichting kruispunten. Gedrag automobilisten dominant."
             },
             {
                 "fileLocation": "img/str20/2.jpg",
-                "textDescription": "NA: Shared space inrichting op kruispunten. Meer ruimte voor fietser en voetgangers."
+                "textDescription": "Na: Shared space inrichting op kruispunten. Meer ruimte voor fietser en voetgangers."
             },
             {
                 "fileLocation": "img/str20/3.jpg",
-                "textDescription": "VOOR: verkeerskundige inrichting met nadruk op ‘stromen’ voor autoverkeer."
+                "textDescription": "Voor: verkeerskundige inrichting met nadruk op ‘stromen’ voor autoverkeer."
             },
             {
                 "fileLocation": "img/str20/4.jpg",
-                "textDescription": "NA: Fiets en auto gemengd, minder parkeren, meer ruimte voor de voetganger en lagere rijsnelheid."
+                "textDescription": "Na: Fiets en auto gemengd, minder parkeren, meer ruimte voor de voetganger en lagere rijsnelheid."
             }
         ],
-        "wegenscan": ["6000", "Fysieke vergevingsgezinfheid, ruimte om fouten te herstellen door ruim profiel", "Veiligheid  voetgangers tussen geparkeerde auto's, gemengd fietsen tot circa 6000 mvt/h mogelijk"],
+        "wegenscan": ["6000", "Fysieke vergevingsgezinfheid, ruimte om fouten te herstellen door ruim profiel", "Veiligheid  voetgangers tussen geparkeerde auto's, gemengd fietsen tot circa 6000 mvt/etm mogelijk"],
         "photos": []
     },
     {
@@ -6651,7 +6651,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str21/face.svg",
-            "judgementText": "De herinrichting van Ruys de Beerenbrouckstraat als wijkontsluitingsweg is geslaagd. Enerzijds heeft het een verkeersfunctie en kan er voldoende verkeer afgewikkeld worden en anderzijds is het ingericht als verblijfsgebied waar over het algemeen niet harder dan gewenste snelheid (40 km/u) wordt gereden. Er zijn veel oversteek-bewegingen, er is een smallere rijbaan met een midden-berm, een speelsere inrichting en er zijn geen verkeers-lichten. Het enige nadeel is dat door het smallere profiel vrachtauto’s wel wat vaker over de rammelstrook rijden.",
+            "judgementText": "De herinrichting van Ruys de Beerenbrouckstraat als wijkontsluitingsweg is geslaagd. Enerzijds heeft het een verkeersfunctie en kan er voldoende verkeer afgewikkeld worden en anderzijds is het ingericht als verblijfsgebied waar over het algemeen niet harder dan gewenste snelheid (40 km/u) wordt gereden. Er zijn veel oversteekbewegingen, er is een smallere rijbaan met een middenberm, een speelsere inrichting en er zijn geen verkeerslichten. Het enige nadeel is dat door het smallere profiel vrachtauto’s wel wat vaker over de rammelstrook rijden.",
             "expertName": "Mirjam van Oers",
             "expertDescription": "Beleidsmedewerker verkeer en vervoer bij gemeente Delft"
         },
@@ -7125,7 +7125,7 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str25/face.svg",
-            "judgementText": "De Adriaen van Ostadelaan in Utrecht was verkeerskun-dig overgedimensioneerd. Er was zeer veel ruimte voor de auto en vrij weinig voor de fietser en voor de voetganger. Dit terwijl de weg door een woonwijk gaat. De kruispunten waren geregeld met verkeerlichten en auto’s reden vaak veel te hard. Dit gebied is nu ingericht met een snelheid van 30 km/h waarbij auto en fiets gemengd zijn. De totale ruimte voor de auto is ongeveer gehalveerd en de ruimte voor de voetganger en groen en verdubbeld. De winkels hebben nu ruimte voor terrassen en uitstallingen en de bewoners kun-nen veiliger oversteken. Er rijdt nog steeds vrij veel autover-keer voor een dergelijke inrichting.",
+            "judgementText": "De Adriaen van Ostadelaan in Utrecht was verkeerskundig overgedimensioneerd. Er was zeer veel ruimte voor de auto en vrij weinig voor de fietser en voor de voetganger. Dit terwijl de weg door een woonwijk gaat. De kruispunten waren geregeld met verkeerlichten en auto’s reden vaak veel te hard. Dit gebied is nu ingericht met een snelheid van 30 km/h waarbij auto en fiets gemengd zijn. De totale ruimte voor de auto is ongeveer gehalveerd en de ruimte voor de voetganger en groen en verdubbeld. De winkels hebben nu ruimte voor terrassen en uitstallingen en de bewoners kunnen veiliger oversteken. Er rijdt nog steeds vrij veel autoverkeer voor een dergelijke inrichting.",
             "expertName": "Marco Aarsen",
             "expertDescription": "Landschapsarchitect en Adviseur, Goudappel Coffeng"
         },
@@ -8244,13 +8244,13 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "",
             "photoLocation": "img/str31/face.svg",
-            "judgementText": "De Piet Heinkade is een interessant voorbeeld van een flexibel wegontwerp. De Piet Heinkade vervult vanaf de Ringweg A10 een belangrijke ontsluitingsfunctie voor de binnenstad van Amsterdam. Er is gekozen voor een profiel met een enkele rijstrook per richting, gecombineerd met een brede middenberm. Doordat de middenberm overrijdbaar is, geeft dit extra robuustheid bij calamiteiten. Een ruime tussenberm tussen de autorijbanen en het fietspad draagt ook bij aan flexibel gebruik: voor fietsparkeren, laad- en losplekken, onder-grondse afvalcontainers en nabij kruispunten een extra opstelvak voor auto’s.</p> <p>Enkele kritische noten: de stoep wordt van erg smal ge-leidelijk aan steeds breder, tot aan een unheimische leegte aan toe. Daarnaast is het niet overal gelukt om bezoekersfuncties in de plinten te krijgen. Hierdoor functioneert de straat voor voetgangers minder prettig.",
+            "judgementText": "De Piet Heinkade is een interessant voorbeeld van een flexibel wegontwerp. De Piet Heinkade vervult vanaf de Ringweg A10 een belangrijke ontsluitingsfunctie voor de binnenstad van Amsterdam. Er is gekozen voor een profiel met een enkele rijstrook per richting, gecombineerd met een brede middenberm. Doordat de middenberm overrijdbaar is, geeft dit extra robuustheid bij calamiteiten. Een ruime tussenberm tussen de autorijbanen en het fietspad draagt ook bij aan flexibel gebruik: voor fietsparkeren, laad- en losplekken, ondergrondse afvalcontainers en nabij kruispunten een extra opstelvak voor auto’s.</p> <p>Enkele kritische noten: de stoep wordt van erg smal geleidelijk aan steeds breder, tot aan een unheimische leegte aan toe. Daarnaast is het niet overal gelukt om bezoekersfuncties in de plinten te krijgen. Hierdoor functioneert de straat voor voetgangers minder prettig.",
             "expertName": "Christiaan Kwantes",
             "expertDescription": "Adviseur mobiliteit en ruimte bij Goudappel Coffeng"
         },
         "functionalAmbiance": "img/str31/funtional_ambiance.svg",
         "beforAndAfter": [],
-        "wegenscan": ["20000", "Homogeniteit: scheiding kwetsbare groepen", "Hoge snelheid door gestrekt profiel , conflicten op kruispunten, bereikbaarheid tramhaltes"],
+        "wegenscan": ["20000", "Homogeniteit: scheiding kwetsbare groepen", "Hoge snelheid door gestrekt profiel, conflicten op kruispunten, bereikbaarheid tramhaltes"],
         "photos": [
             {
                 "fileLocation": "img/str31/1.jpg",
@@ -8694,12 +8694,12 @@ const allStreetData = [
         "expertJudgement": {
             "gender": "female",
             "photoLocation": "img/str34/face.svg",
-            "judgementText": "Dit vind ik een van de mooiste straten in Maastricht. De verkeersfunctie is nog vrij fors, maar door het scheiden van de rijrichtingen blijft de weg nog goed oversteek-baar. Hij oogt naar mijn mening wat duister door de vele bomen en de hoge bebouwing erlangs. De vele bomen zorgen er echter ook voor dat het zicht over het verkeer minder wordt. Daarnaast zou het mooi zijn als de aparte busbaan weg zou kunnen, waardoor er meer ruimte komt voor het overige verkeer.",
+            "judgementText": "Dit vind ik een van de mooiste straten in Maastricht. De verkeersfunctie is nog vrij fors, maar door het scheiden van de rijrichtingen blijft de weg nog goed oversteekbaar. Het oogt naar mijn mening wat duister door de vele bomen en de hoge bebouwing erlangs. De vele bomen zorgen er echter ook voor dat het zicht over het verkeer minder wordt. Daarnaast zou het mooi zijn als de aparte busbaan weg zou kunnen, waardoor er meer ruimte komt voor het overige verkeer.",
             "expertName": "Viviane de Groot",
             "expertDescription": "Verkeerskundig ontwerper bij gemeente Maastricht"
         },
         "functionalAmbiance": "img/str34/funtional_ambiance.svg",
-        "wegenscan": ["15.000","Homogeniteit: scheiding kwetsbare groepen","Cversteekbaarheid fietsers en voetgangers bij busbaan, kans op afdekongevallen, zichtbaarheid voetgangers in groene berm"],
+        "wegenscan": ["15.000","Homogeniteit: scheiding kwetsbare groepen","Oversteekbaarheid fietsers en voetgangers bij busbaan, kans op afdekongevallen, zichtbaarheid voetgangers in groene berm"],
         "photos": [
             {
                 "fileLocation": "img/str34/1.jpg",

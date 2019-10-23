@@ -167,7 +167,7 @@ function initiateStreetContent() {
     }
 
     if (streetData.wegenscan != undefined) {
-        var wegenscan = "<p><b>Het profiel is geschikt tot circa</b><br> " + streetData.wegenscan[0] + " mvt/etm.</p>";
+        var wegenscan = "<p><b>Het profiel is geschikt tot circa:</b><br> " + streetData.wegenscan[0] + " mvt/etm.</p>";
         wegenscan += "<p><b>Positief wat betreft veiligheid:</b><br> " + streetData.wegenscan[1] + ".</p>";
         wegenscan += "<p><b>Aandachtspunten wat betreft veiligheid:</b><br> " + streetData.wegenscan[2] + ".</p>";
         $("#wegenscan").append(wegenscan).show();
